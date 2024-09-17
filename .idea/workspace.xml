@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/chipwhisperer-jupyter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/DP1-chip-whisperer-setup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/Setup_Generic.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/avg_wave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/chipwhisperer_neural_net_interaction.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/diff_avg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/figure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/Makefile.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/debug-source.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/hal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/network.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/network.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleseria" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.eep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.lss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.sym" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/Makefile.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/debug-source.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/dewflio_shuffle_ANN/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/dewflio_shuffle_ANN/network.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/dewflio_shuffle_ANN/network.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/network.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/network.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.eep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.lss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.sym" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/warnings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 0 - SCA101 Setup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 2_1A - Instruction Power Differences (HARDWARE).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 2_1A - Instruction Power Differences (MAIN).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 2_1A - Instruction Power Differences (SIMULATED).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 2_1B - Power Analysis for Password Bypass (HARDWARE).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 2_1B - Power Analysis for Password Bypass (MAIN).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 2_1B - Power Analysis for Password Bypass (SIMULATED).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 3_1 - Large Hamming Weight Swings (HARDWARE).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 3_1 - Large Hamming Weight Swings (MAIN).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 3_1 - Large Hamming Weight Swings (SIMULATED).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 3_2 - Recovering Data from a Single Bit.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 3_3 - DPA on Firmware Implementation of AES (HARDWARE).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 3_3 - DPA on Firmware Implementation of AES (MAIN).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 3_3 - DPA on Firmware Implementation of AES (SIMULATED).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 4_1 - Power and Hamming Weight Relationship (HARDWARE).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 4_1 - Power and Hamming Weight Relationship (MAIN).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 4_1 - Power and Hamming Weight Relationship (SIMULATED).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 4_2 - CPA on Firmware Implementation of AES (HARDWARE).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 4_2 - CPA on Firmware Implementation of AES (MAIN).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 4_2 - CPA on Firmware Implementation of AES (SIMULATED).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 4_3 - ChipWhisperer Analyzer CPA Attack (HARDWARE).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 4_3 - ChipWhisperer Analyzer CPA Attack (MAIN).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 4_3 - ChipWhisperer Analyzer CPA Attack (SIMULATED).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 5_1 - ChipWhisperer CPA Attacks in Practice.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/Lab 6_4 - Jittery Triggering on UART.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/SOLN_Lab 2_1B - Power Analysis for Password Bypass.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/SOLN_Lab 3_1 - Large Hamming Weight Swings.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/SOLN_Lab 3_2 - Recovering Data from a Single Bit.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/SOLN_Lab 3_3 - DPA on Firmware Implementation of AES.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/SOLN_Lab 4_1 - Power and Hamming Weight Relationship.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/SOLN_Lab 4_2 - CPA on Firmware Implementation of AES.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/figure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/generators/Lab2_1B - GENERATOR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/generators/Lab3_1 - GENERATOR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/generators/Lab3_3 - GENERATOR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/generators/Lab4_1 - GENERATOR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/generators/Lab4_2 - GENERATOR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/generators/Lab4_3 - GENERATOR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/4traces_aes_clkx1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/4traces_aes_clkx1_offset60000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/4traces_aes_clkx1_presample5000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/4traces_aes_clkx1_presample5000_zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/4traces_aes_clkx4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/4traces_aes_poortrigger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/aesinput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/dpa-doublepeak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/dpa_peakexample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/shunt_chipwhisperer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/spa_password_diffexample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/spa_password_h_vs_0_overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/spa_password_h_vs_0_zoomed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/spa_password_list_char1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/traces_wrong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/img/uart_triggers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/traces/aes_2500traces_random.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/traces/lab2_1b_passwords_full.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/sca101/traces/password_sim.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/temp2_wave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/temp_wave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/var.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0 - Introduction to Jupyter Notebooks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/0 - Introduction to Jupyter Notebooks.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Connecting to Hardware.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1 - Connecting to Hardware.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper_Scripts/plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Helper_Scripts/plot.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup_Scripts/Setup_Generic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Setup_Scripts/Setup_Generic.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/Intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Intro.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "WolfEnergy1998"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/WolfEnergy1998/DP-local-chipwhisperer.git",
+    "accountId": "df43fe41-3f71-4748-9791-7c45cce42d60"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2kmvsmKiJdsyLgzUvDTPtr0S9MN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Samuel/PycharmProjects/chipwhisperer-jupyter&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Samuel\PycharmProjects\chipwhisperer-jupyter" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="" />
+      <created>1723901780808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723901780808</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
