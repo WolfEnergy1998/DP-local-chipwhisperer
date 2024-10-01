@@ -1,4 +1,4 @@
-1 == ./makefile_dir_2-Copy1/
+1 == ./makefile_dir_2/
 2 == ./
 3 == CWLITEARM
 4 == ../../../hardware/victims/firmware

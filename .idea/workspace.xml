@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Added firmware_bash.sh as replacement for firmware initialization bash command, done CW_setuper" />
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Small refactoring on CW_Setuper">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.lss" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.lss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.map" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/tmp.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727533583704</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Small refactoring on CW_Setuper">
+      <option name="closed" value="true" />
+      <created>1727533722576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727533722576</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +118,7 @@
     <MESSAGE value="adding to own repositary, the directory of the user" />
     <MESSAGE value="Refactoring CustomCPA_SCA notebook, adding new CPA function, in this case for one_time_point, preparing file for pipeline creation" />
     <MESSAGE value="Added firmware_bash.sh as replacement for firmware initialization bash command, done CW_setuper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added firmware_bash.sh as replacement for firmware initialization bash command, done CW_setuper" />
+    <MESSAGE value="Small refactoring on CW_Setuper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small refactoring on CW_Setuper" />
   </component>
 </project>
