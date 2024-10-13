@@ -50,7 +50,7 @@ neuron quantized_create_neuron(int num_out_weights){
     new_neuron.num_weights = num_out_weights;
 
     for (int i=0; i<num_out_weights; i++){
-        new_neuron.weights[i] = ((char)rand())/((char)RAND_MAX);
+        new_neuron.weights[i] = (signed char)(rand() % 256);
     }
     return new_neuron;
 }
@@ -94,7 +94,7 @@ network construct_network(int num_outputs, int num_layers, int *num_neurons) {
 
 
 network construct_quantized_network(int num_outputs, int num_layers, int *num_neurons) {
-
+    srand(time(NULL));
     network net = create_network(num_layers);
     int i, j;
     for (i=0; i<num_layers; i++){
