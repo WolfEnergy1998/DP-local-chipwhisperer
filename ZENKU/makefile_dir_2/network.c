@@ -50,9 +50,7 @@ neuron quantized_create_neuron(int num_out_weights){
     new_neuron.num_weights = num_out_weights;
 
     for (int i=0; i<num_out_weights; i++){
-        signed char weight = (signed char)(rand() % 256);
-        if(weight == 0)weight=255;
-        new_neuron.weights[i] = (signed char)(rand() % 256);
+        new_neuron.weights[i] = ((char)rand())/((char)RAND_MAX);
     }
     return new_neuron;
 }
