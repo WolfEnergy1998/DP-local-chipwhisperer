@@ -1,0 +1,6 @@
+1 == ./makefile_dir_2/
+2 == ./
+3 == CWLITEARM
+4 == ../../../hardware/victims/firmware
+5 == SS_VER_2_1
+6 == simpleserial-target
