@@ -5,35 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="starting several runs, with different number of epochs&#10;repairing for our needs the main.cp -- found problem of creating ANN on each message handling">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/Makefile.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/debug-source.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/dewflio_shuffle_ANN/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/dewflio_shuffle_ANN/network.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/dewflio_shuffle_ANN/network.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/network.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/network.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/simpleserial-target-CWLITEARM.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-Copy1/warnings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/network.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/network.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.eep" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.eep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/corr_all.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.hex" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.lss" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.lss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.map" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.sym" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.sym" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/warnings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/warnings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/warnings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/warnings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asdf.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728805354314</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="starting several runs, with different number of epochs&#10;repairing for our needs the main.cp -- found problem of creating ANN on each message handling">
+      <option name="closed" value="true" />
+      <created>1729196445601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729196445601</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

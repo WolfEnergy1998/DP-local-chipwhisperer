@@ -19,24 +19,24 @@
 uint8_t handle(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
 {
   volatile uint8_t result = 0;
-
-  //int arr[4] = {7,5,4,2};
-  //network net = construct_network(5, 4, arr);
-
   int arr[4] = {7,5,4,2};
-  weight = 27;
+  signed char weight = 27;
+  /*for(int x = 0;x<arr[0];x++){
+      signed char num = (signed char)(buf[x]) * weight;
+  }*/
+  // Start measurement.
   trigger_high();
-
-  for(int x = 0;x<arr[0];x++){
-      int num = buff[x] * weight;
+  //signed char num = (signed char)(buf[0]) * weight;
+  for(int x = 0;x<10000;x++){
+      signed char num = (signed char)(buf[0]) * weight;
   }
-  //forward_shuffled(net);
-  //forward_shuffled_without_overhead(net, random_indices, 0);
-  //forward_shuffled_without_overhead_activations_at_end(net, random_indices, 2);
-
   // Stop measurement.
   trigger_low();
-  //simpleserial_put('r', return_len, string);
+    
+  result = scmd*scmd;
+  // For now we can just return the result back to the user.
+  uint8_t buff[1] = { result };
+  simpleserial_put('r', 1, buff);
 
   return 0;
 }

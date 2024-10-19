@@ -1,31 +1,25 @@
 main.c: In function 'handle':
-main.c:43:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
-   43 |   trigger_high();
+main.c:28:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
+   28 |   trigger_high();
       |   ^~~~~~~~~~~~
-main.c:51:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
-   51 |   trigger_low();
+main.c:31:19: warning: unused variable 'num' [-Wunused-variable]
+   31 |       signed char num = (signed char)(buf[0]) * weight;
+      |                   ^~~
+main.c:34:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
+   34 |   trigger_low();
       |   ^~~~~~~~~~~
-main.c:68:37: warning: pointer targets in passing argument 3 of 'simpleserial_put' differ in signedness [-Wpointer-sign]
-   68 |   simpleserial_put('r', return_len, string);
-      |                                     ^~~~~~
-      |                                     |
-      |                                     char *
-In file included from main.c:13:
-../../../hardware/victims/firmware/simpleserial/simpleserial.h:63:54: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
-   63 | void simpleserial_put(char c, uint8_t size, uint8_t* output);
-      |                                             ~~~~~~~~~^~~~~~
-main.c:56:11: warning: unused variable 'buff' [-Wunused-variable]
-   56 |   uint8_t buff[1] = { result };
-      |           ^~~~
+main.c:22:7: warning: unused variable 'arr' [-Wunused-variable]
+   22 |   int arr[4] = {7,5,4,2};
+      |       ^~~
 main.c: In function 'main':
-main.c:75:3: warning: implicit declaration of function 'platform_init' [-Wimplicit-function-declaration]
-   75 |   platform_init();
+main.c:46:3: warning: implicit declaration of function 'platform_init' [-Wimplicit-function-declaration]
+   46 |   platform_init();
       |   ^~~~~~~~~~~~~
-main.c:77:3: warning: implicit declaration of function 'init_uart' [-Wimplicit-function-declaration]
-   77 |   init_uart();
+main.c:48:3: warning: implicit declaration of function 'init_uart' [-Wimplicit-function-declaration]
+   48 |   init_uart();
       |   ^~~~~~~~~
-main.c:79:3: warning: implicit declaration of function 'trigger_setup' [-Wimplicit-function-declaration]
-   79 |   trigger_setup();
+main.c:50:3: warning: implicit declaration of function 'trigger_setup' [-Wimplicit-function-declaration]
+   50 |   trigger_setup();
       |   ^~~~~~~~~~~~~
 network.c: In function 'create_neuron':
 network.c:33:24: warning: assignment to 'char *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
