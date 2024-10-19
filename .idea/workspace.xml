@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="saving changes to customCPA">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/dewflio_shuffle_ANN/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/dewflio_shuffle_ANN/network.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/warnings.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729361067510</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="saving changes to customCPA">
+      <option name="closed" value="true" />
+      <created>1729363105367</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729363105367</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
