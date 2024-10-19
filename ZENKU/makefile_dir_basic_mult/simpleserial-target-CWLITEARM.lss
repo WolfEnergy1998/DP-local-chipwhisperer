@@ -228,7 +228,7 @@ uint8_t handle(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
 {
  800034c:	b537      	push	{r0, r1, r2, r4, r5, lr}
  800034e:	460c      	mov	r4, r1
-      signed char num = (signed char)(buf[0]) * weight;
+      int num = x * weight;
   }
   // Stop measurement.
   trigger_low();

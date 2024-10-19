@@ -27,8 +27,8 @@ uint8_t handle(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
   // Start measurement.
   trigger_high();
   //signed char num = (signed char)(buf[0]) * weight;
-  for(int x = 0;x<10000;x++){
-      signed char num = (signed char)(buf[0]) * weight;
+  for(int x = 1;x<10000;x++){
+      int num = x * weight;
   }
   // Stop measurement.
   trigger_low();

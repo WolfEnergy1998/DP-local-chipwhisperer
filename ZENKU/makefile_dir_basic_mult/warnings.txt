@@ -2,9 +2,9 @@ main.c: In function 'handle':
 main.c:28:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
    28 |   trigger_high();
       |   ^~~~~~~~~~~~
-main.c:31:19: warning: unused variable 'num' [-Wunused-variable]
-   31 |       signed char num = (signed char)(buf[0]) * weight;
-      |                   ^~~
+main.c:31:11: warning: unused variable 'num' [-Wunused-variable]
+   31 |       int num = x * weight;
+      |           ^~~
 main.c:34:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
    34 |   trigger_low();
       |   ^~~~~~~~~~~
