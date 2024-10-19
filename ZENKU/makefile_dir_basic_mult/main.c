@@ -31,6 +31,7 @@ uint8_t handle(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
   //    int num = x * weight;
   //}
   // Stop measurement.
+  //signed char num = (signed char)(buf[0]) * weight;
   trigger_low();
     
   result = scmd*scmd;
