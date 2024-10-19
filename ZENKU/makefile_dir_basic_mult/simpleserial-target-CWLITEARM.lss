@@ -27,31 +27,31 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 0000002a  00000000  00000000  000023e0  2**0
                   CONTENTS, READONLY
- 12 .debug_info   0000412d  00000000  00000000  0000240a  2**0
+ 12 .debug_info   0000410f  00000000  00000000  0000240a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00000ba4  00000000  00000000  00006537  2**0
+ 13 .debug_abbrev 00000b98  00000000  00000000  00006519  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_loc    00002296  00000000  00000000  000070db  2**0
+ 14 .debug_loc    00002296  00000000  00000000  000070b1  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_aranges 000001e8  00000000  00000000  00009378  2**3
+ 15 .debug_aranges 000001e8  00000000  00000000  00009348  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_ranges 000003d8  00000000  00000000  00009560  2**0
+ 16 .debug_ranges 000003d8  00000000  00000000  00009530  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   000024d8  00000000  00000000  00009938  2**0
+ 17 .debug_line   000024cf  00000000  00000000  00009908  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00001513  00000000  00000000  0000be10  2**0
+ 18 .debug_str    00001513  00000000  00000000  0000bdd7  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000012  00000000  00000000  0000d323  2**0
+ 19 .comment      00000012  00000000  00000000  0000d2ea  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000004bc  00000000  00000000  0000d338  2**2
+ 20 .debug_frame  000004bc  00000000  00000000  0000d2fc  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .stab         00000144  00000000  00000000  0000d7f4  2**2
+ 21 .stab         00000144  00000000  00000000  0000d7b8  2**2
                   CONTENTS, READONLY, DEBUGGING
- 22 .stabstr      00000070  00000000  00000000  0000d938  2**0
+ 22 .stabstr      00000070  00000000  00000000  0000d8fc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 23 .debug_loclists 00000065  00000000  00000000  0000d9a8  2**0
+ 23 .debug_loclists 00000065  00000000  00000000  0000d96c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_line_str 0000008d  00000000  00000000  0000da0d  2**0
+ 24 .debug_line_str 0000008d  00000000  00000000  0000d9d1  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -228,8 +228,8 @@ uint8_t handle(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
 {
  800034c:	b537      	push	{r0, r1, r2, r4, r5, lr}
  800034e:	460c      	mov	r4, r1
-      int num = x * weight;
-  }
+  //    int num = x * weight;
+  //}
   // Stop measurement.
   trigger_low();
     

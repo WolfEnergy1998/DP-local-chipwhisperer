@@ -1531,21 +1531,21 @@ LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-
 LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0x412d
- .debug_info    0x00000000      0x363 objdir/.//main.o
- .debug_info    0x00000363      0x862 objdir/simpleserial.o
- .debug_info    0x00000bc5      0xf4c objdir/stm32f3_hal.o
- .debug_info    0x00001b11     0x24de objdir/stm32f3_hal_lowlevel.o
- .debug_info    0x00003fef      0x10b c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
- .debug_info    0x000040fa       0x33 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy.o)
+.debug_info     0x00000000     0x410f
+ .debug_info    0x00000000      0x345 objdir/.//main.o
+ .debug_info    0x00000345      0x862 objdir/simpleserial.o
+ .debug_info    0x00000ba7      0xf4c objdir/stm32f3_hal.o
+ .debug_info    0x00001af3     0x24de objdir/stm32f3_hal_lowlevel.o
+ .debug_info    0x00003fd1      0x10b c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_info    0x000040dc       0x33 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy.o)
 
-.debug_abbrev   0x00000000      0xba4
- .debug_abbrev  0x00000000      0x181 objdir/.//main.o
- .debug_abbrev  0x00000181      0x263 objdir/simpleserial.o
- .debug_abbrev  0x000003e4      0x257 objdir/stm32f3_hal.o
- .debug_abbrev  0x0000063b      0x478 objdir/stm32f3_hal_lowlevel.o
- .debug_abbrev  0x00000ab3       0xc9 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
- .debug_abbrev  0x00000b7c       0x28 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy.o)
+.debug_abbrev   0x00000000      0xb98
+ .debug_abbrev  0x00000000      0x175 objdir/.//main.o
+ .debug_abbrev  0x00000175      0x263 objdir/simpleserial.o
+ .debug_abbrev  0x000003d8      0x257 objdir/stm32f3_hal.o
+ .debug_abbrev  0x0000062f      0x478 objdir/stm32f3_hal_lowlevel.o
+ .debug_abbrev  0x00000aa7       0xc9 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_abbrev  0x00000b70       0x28 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy.o)
 
 .debug_loc      0x00000000     0x2296
  .debug_loc     0x00000000       0xe0 objdir/.//main.o
@@ -1573,13 +1573,13 @@ LOAD c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/thumb/v7e-m/nofp\libg
  .debug_ranges  0x00000118       0xb0 objdir/stm32f3_hal.o
  .debug_ranges  0x000001c8      0x210 objdir/stm32f3_hal_lowlevel.o
 
-.debug_line     0x00000000     0x24d8
- .debug_line    0x00000000      0x16c objdir/.//main.o
- .debug_line    0x0000016c      0x651 objdir/simpleserial.o
- .debug_line    0x000007bd      0x3ca objdir/stm32f3_hal.o
- .debug_line    0x00000b87     0x1754 objdir/stm32f3_hal_lowlevel.o
- .debug_line    0x000022db      0x144 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
- .debug_line    0x0000241f       0xb9 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy.o)
+.debug_line     0x00000000     0x24cf
+ .debug_line    0x00000000      0x163 objdir/.//main.o
+ .debug_line    0x00000163      0x651 objdir/simpleserial.o
+ .debug_line    0x000007b4      0x3ca objdir/stm32f3_hal.o
+ .debug_line    0x00000b7e     0x1754 objdir/stm32f3_hal_lowlevel.o
+ .debug_line    0x000022d2      0x144 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_line    0x00002416       0xb9 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-memcpy.o)
 
 .debug_str      0x00000000     0x1513
  .debug_str     0x00000000     0x1513 objdir/.//main.o
