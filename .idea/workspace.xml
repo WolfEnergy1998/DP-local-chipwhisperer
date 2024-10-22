@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="saving changes to customCPA">
-      <change beforePath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" afterDir="false" />
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="saving changes to customCPA and Capture_traces">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/corr_all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/corr_all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/tmp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +39,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Samuel/PycharmProjects/chipwhisperer-jupyter&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Samuel/PycharmProjects/tmp",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Samuel\PycharmProjects\chipwhisperer-jupyter" />
@@ -152,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729363105367</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="saving changes to customCPA and Capture_traces">
+      <option name="closed" value="true" />
+      <created>1729364591752</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729364591752</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +186,7 @@
     <MESSAGE value="starting several runs, with different number of epochs&#10;repairing for our needs the main.cp -- found problem of creating ANN on each message handling" />
     <MESSAGE value="tydiing the ZENKU dir, adding upload files feauture to the drive, for paraler procesing, capture and analysis, running capture of basic multiplication, and its analysis" />
     <MESSAGE value="saving changes to customCPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="saving changes to customCPA" />
+    <MESSAGE value="saving changes to customCPA and Capture_traces" />
+    <option name="LAST_COMMIT_MESSAGE" value="saving changes to customCPA and Capture_traces" />
   </component>
 </project>
