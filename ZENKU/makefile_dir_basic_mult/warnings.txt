@@ -1,25 +1,58 @@
-main.c: In function 'handle':
-main.c:28:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
-   28 |   trigger_high();
+main.c: In function 'one_mult':
+main.c:25:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
+   25 |   trigger_high();                                          // Start measurement!!!
       |   ^~~~~~~~~~~~
-main.c:31:11: warning: unused variable 'num' [-Wunused-variable]
-   31 |       int num = x * x * weight + x*x;
-      |           ^~~
-main.c:35:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
-   35 |   trigger_low();
+main.c:33:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
+   33 |   trigger_low();                                             // Stop measurement!!!
       |   ^~~~~~~~~~~
+main.c:29:17: warning: unused variable 'num' [-Wunused-variable]
+   29 |   unsigned char num = (unsigned char)(weight * buf[0]);
+      |                 ^~~
 main.c:22:7: warning: unused variable 'arr' [-Wunused-variable]
    22 |   int arr[4] = {7,5,4,2};
       |       ^~~
+main.c: In function 'reversed_one_mult':
+main.c:55:17: warning: unused variable 'num' [-Wunused-variable]
+   55 |   unsigned char num = (unsigned char)(weight * buf[0]);
+      |                 ^~~
+main.c:47:7: warning: unused variable 'arr' [-Wunused-variable]
+   47 |   int arr[4] = {7,5,4,2};
+      |       ^~~
+main.c: In function 'hundred_mult':
+main.c:87:21: warning: unused variable 'resutl' [-Wunused-variable]
+   87 |       unsigned char resutl = (unsigned char)(x * val);
+      |                     ^~~~~~
+main.c:86:21: warning: unused variable 'akt' [-Wunused-variable]
+   86 |       unsigned char akt = x % 25;
+      |                     ^~~
+main.c:81:17: warning: unused variable 'resutl' [-Wunused-variable]
+   81 |   unsigned char resutl;
+      |                 ^~~~~~
+main.c:75:17: warning: unused variable 'weight' [-Wunused-variable]
+   75 |   unsigned char weight = 5;
+      |                 ^~~~~~
+main.c:74:7: warning: unused variable 'arr' [-Wunused-variable]
+   74 |   int arr[4] = {7,5,4,2};
+      |       ^~~
+main.c: In function 'hundred_mult_buffed':
+main.c:114:21: warning: unused variable 'resutl' [-Wunused-variable]
+  114 |       unsigned char resutl = (unsigned char)(val * buf[0]);
+      |                     ^~~~~~
+main.c:105:17: warning: unused variable 'weight' [-Wunused-variable]
+  105 |   unsigned char weight = 5;
+      |                 ^~~~~~
+main.c:104:7: warning: unused variable 'arr' [-Wunused-variable]
+  104 |   int arr[4] = {7,5,4,2};
+      |       ^~~
 main.c: In function 'main':
-main.c:47:3: warning: implicit declaration of function 'platform_init' [-Wimplicit-function-declaration]
-   47 |   platform_init();
+main.c:137:3: warning: implicit declaration of function 'platform_init' [-Wimplicit-function-declaration]
+  137 |   platform_init();
       |   ^~~~~~~~~~~~~
-main.c:49:3: warning: implicit declaration of function 'init_uart' [-Wimplicit-function-declaration]
-   49 |   init_uart();
+main.c:139:3: warning: implicit declaration of function 'init_uart' [-Wimplicit-function-declaration]
+  139 |   init_uart();
       |   ^~~~~~~~~
-main.c:51:3: warning: implicit declaration of function 'trigger_setup' [-Wimplicit-function-declaration]
-   51 |   trigger_setup();
+main.c:141:3: warning: implicit declaration of function 'trigger_setup' [-Wimplicit-function-declaration]
+  141 |   trigger_setup();
       |   ^~~~~~~~~~~~~
 network.c: In function 'create_neuron':
 network.c:33:24: warning: assignment to 'char *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
@@ -84,13 +117,6 @@ network.c: In function 'forward':
 network.c:351:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
   351 |     uint8_t result, scmd = 16;
       |             ^~~~~~
-network.c: In function 'forward_shuffled_without_overhead_activations_at_end':
-network.c:283:80: warning: 'nidx' may be used uninitialized [-Wmaybe-uninitialized]
-  283 |                 net.layers[i].neurons[nidx].a = 1/(1+exp(-net.layers[i].neurons[nidx].z));
-      |                                                                                ^
-network.c:232:18: note: 'nidx' was declared here
-  232 |     int i, j, k, nidx;
-      |                  ^~~~
 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o): in function `_close_r':
 c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/closer.c:47:(.text+0xc): warning: _close is not implemented and will always fail
 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-fstatr.o): in function `_fstat_r':

@@ -16,23 +16,21 @@
 /// It returns the squared version of the scmd given.
 /// It does this in approximately equal time, which allows us to see clear
 /// differences between different scmd values.
-uint8_t handle(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
+uint8_t one_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
 {
   volatile uint8_t result = 0;
   int arr[4] = {7,5,4,2};
-  signed char weight = 27;
-  /*for(int x = 0;x<arr[0];x++){
-      signed char num = (signed char)(buf[x]) * weight;
-  }*/
-  // Start measurement.
-  trigger_high();
-  //signed char num = (signed char)(buf[0]) * weight;
-  for(int x = 1;x<1000;x++){
-      int num = x * x * weight + x*x;
+  unsigned char weight = 5;
+    
+  trigger_high();                                          // Start measurement!!!
+  for(int x = 0;x<100;x++){
+      __asm__("nop");
   }
-  // Stop measurement.
-  //signed char num = (signed char)(buf[0]) * weight;
-  trigger_low();
+  unsigned char num = (unsigned char)(weight * buf[0]);
+  for(int x = 0;x<100;x++){
+      __asm__("nop");
+  }
+  trigger_low();                                             // Stop measurement!!!
     
   result = scmd*scmd;
   // For now we can just return the result back to the user.
@@ -41,6 +39,98 @@ uint8_t handle(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
 
   return 0;
 }
+
+
+uint8_t reversed_one_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
+{
+  volatile uint8_t result = 0;
+  int arr[4] = {7,5,4,2};
+  unsigned char weight = 5;
+    
+  // Start measurement.
+  trigger_low();                                              // Start measurement!!!
+  for(int x = 0;x<100;x++){
+      __asm__("nop");
+  }
+  unsigned char num = (unsigned char)(weight * buf[0]);
+  for(int x = 0;x<100;x++){
+      __asm__("nop");
+  }
+  trigger_high();                                             // Stop measurement!!!
+    
+  result = scmd*scmd;
+  // For now we can just return the result back to the user.
+  uint8_t buff[1] = { result };
+  simpleserial_put('r', 1, buff);
+
+  return 0;
+}
+
+
+
+uint8_t hundred_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
+{
+  volatile uint8_t result = 0;
+  int arr[4] = {7,5,4,2};
+  unsigned char weight = 5;
+    
+  trigger_high();                                          // Start measurement!!!
+  for(int x = 0;x<100;x++){
+      __asm__("nop");
+  }
+  unsigned char resutl;
+  unsigned char val = buf[0];
+  for(int x = 0;x<50;x++){
+      __asm__("nop");
+      __asm__("nop");
+      unsigned char akt = x % 25;
+      unsigned char resutl = (unsigned char)(x * val);
+      __asm__("nop");
+      __asm__("nop");
+  }
+  trigger_low();                                             // Stop measurement!!!
+    
+  result = scmd*scmd;
+  // For now we can just return the result back to the user.
+  uint8_t buff[1] = { result };
+  simpleserial_put('r', 1, buff);
+
+  return 0;
+}
+
+uint8_t hundred_mult_buffed(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
+{
+  volatile uint8_t result = 0;
+  int arr[4] = {7,5,4,2};
+  unsigned char weight = 5;
+    
+  trigger_high();                                           // Start measurement!!!
+  for(int x = 0;x<100;x++){
+      __asm__("nop");
+  }
+  int x = 0;
+  while(x<20){
+      unsigned char val =  x % 10;
+      unsigned char resutl = (unsigned char)(val * buf[0]);
+      x++;
+      for(int y = 0;y<3;y++){
+          __asm__("nop");
+      }
+  }
+  for(int x = 0;x<100;x++){
+      __asm__("nop");
+  }
+  trigger_low();                                             // Stop measurement!!!
+    
+  result = scmd*scmd;
+  // For now we can just return the result back to the user.
+  uint8_t buff[1] = { result };
+  simpleserial_put('r', 1, buff);
+
+  return 0;
+}
+
+
 
 int main(void) {
   // Setup the specific chipset.
@@ -53,7 +143,10 @@ int main(void) {
   simpleserial_init();
 
   // Insert your handlers here.
-  simpleserial_addcmd('p', 16, handle);
+  simpleserial_addcmd('p', 16, hundred_mult);
+  simpleserial_addcmd('z', 16, one_mult);
+  simpleserial_addcmd('r', 16, reversed_one_mult);
+  simpleserial_addcmd('f', 16, hundred_mult_buffed);
 
   // What for the capture board to send commands and handle them.
   while (1)

@@ -78,6 +78,7 @@ ASRC +=
 ifeq ($(OPT),)
   OPT = s
 endif
+OPT = 0
 
 
 # Debugging format.
