@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="daily update">
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="daily update, succesful CPA on one_mult, well besides 0, mixed results for mult_mult">
+      <change afterPath="$PROJECT_DIR$/ZENKU/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/1500_norm_corr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/800_norm_corr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0 - Introduction to Jupyter Notebooks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/0 - Introduction to Jupyter Notebooks.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper_Scripts/plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Helper_Scripts/plot.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/corr_all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/corr_all.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/avg_wave.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/diff_avg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/expanded_first_corr_row.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/figure.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/first_corr_row.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/temp2_wave.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/temp_wave.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/var.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/Makefile.inc" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/Makefile.inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.eep" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.eep" afterDir="false" />
@@ -30,9 +20,7 @@
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.map" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.sym" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.sym" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/warnings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/warnings.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/tmp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/sca101/SOLN_Lab 4_2 - CPA on Firmware Implementation of AES.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/sca101/SOLN_Lab 4_2 - CPA on Firmware Implementation of AES.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +65,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -194,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729597585779</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="daily update, succesful CPA on one_mult, well besides 0, mixed results for mult_mult">
+      <option name="closed" value="true" />
+      <created>1730030343354</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730030343354</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +214,7 @@
     <MESSAGE value="saving changes to customCPA" />
     <MESSAGE value="saving changes to customCPA and Capture_traces" />
     <MESSAGE value="daily update" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily update" />
+    <MESSAGE value="daily update, succesful CPA on one_mult, well besides 0, mixed results for mult_mult" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily update, succesful CPA on one_mult, well besides 0, mixed results for mult_mult" />
   </component>
 </project>
