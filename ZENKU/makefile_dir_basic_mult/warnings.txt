@@ -1,12 +1,12 @@
 main.c: In function 'one_mult':
-main.c:25:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
-   25 |   trigger_high();                                          // Start measurement!!!
+main.c:27:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
+   27 |   trigger_high();                                          // Start measurement!!!
       |   ^~~~~~~~~~~~
-main.c:33:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
-   33 |   trigger_low();                                             // Stop measurement!!!
+main.c:35:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
+   35 |   trigger_low();                                             // Stop measurement!!!
       |   ^~~~~~~~~~~
-main.c:29:17: warning: unused variable 'num' [-Wunused-variable]
-   29 |   unsigned char num = (unsigned char)(weight * buf[0]);
+main.c:31:17: warning: unused variable 'num' [-Wunused-variable]
+   31 |   unsigned char num = (unsigned char)(weight * buf[0]);
       |                 ^~~
 main.c:22:7: warning: unused variable 'arr' [-Wunused-variable]
    22 |   int arr[4] = {7,5,4,2};
@@ -15,39 +15,42 @@ main.c:21:20: warning: variable 'result' set but not used [-Wunused-but-set-vari
    21 |   volatile uint8_t result = 0;
       |                    ^~~~~~
 main.c: In function 'hundred_mult':
-main.c:67:21: warning: unused variable 'result' [-Wunused-variable]
-   67 |       unsigned char result = (unsigned char)(x * val);
+main.c:71:21: warning: unused variable 'result' [-Wunused-variable]
+   71 |       unsigned char result = (unsigned char)(x * val);
       |                     ^~~~~~
-main.c:66:21: warning: unused variable 'akt' [-Wunused-variable]
-   66 |       unsigned char akt = x % (counter/2);
+main.c:70:21: warning: unused variable 'akt' [-Wunused-variable]
+   70 |       unsigned char akt = x % (counter/2);
       |                     ^~~
-main.c:79:36: warning: pointer targets in passing argument 3 of 'simpleserial_put' differ in signedness [-Wpointer-sign]
-   79 |   simpleserial_put('r', counter+1, string);
-      |                                    ^~~~~~
-      |                                    |
-      |                                    char *
+main.c:81:28: warning: passing argument 3 of 'simpleserial_put' makes pointer from integer without a cast [-Wint-conversion]
+   81 |   simpleserial_put('r', 2, result);
+      |                            ^~~~~~
+      |                            |
+      |                            uint8_t {aka unsigned char}
 In file included from main.c:13:
-../../../hardware/victims/firmware/simpleserial/simpleserial.h:63:54: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+../../../hardware/victims/firmware/simpleserial/simpleserial.h:63:54: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
    63 | void simpleserial_put(char c, uint8_t size, uint8_t* output);
       |                                             ~~~~~~~~~^~~~~~
+main.c:54:8: warning: variable 'string' set but not used [-Wunused-but-set-variable]
+   54 |   char string[counter+1];
+      |        ^~~~~~
 main.c:52:17: warning: unused variable 'resutl' [-Wunused-variable]
    52 |   unsigned char resutl;
       |                 ^~~~~~
 main.c:50:17: warning: unused variable 'weight' [-Wunused-variable]
    50 |   unsigned char weight = 5;
       |                 ^~~~~~
-main.c:48:20: warning: unused variable 'result' [-Wunused-variable]
-   48 |   volatile uint8_t result = 0;
-      |                    ^~~~~~
+main.c:49:7: warning: unused variable 'arr' [-Wunused-variable]
+   49 |   int arr[4] = {7,5,4,2};
+      |       ^~~
 main.c: In function 'main':
-main.c:87:3: warning: implicit declaration of function 'platform_init' [-Wimplicit-function-declaration]
-   87 |   platform_init();
+main.c:89:3: warning: implicit declaration of function 'platform_init' [-Wimplicit-function-declaration]
+   89 |   platform_init();
       |   ^~~~~~~~~~~~~
-main.c:89:3: warning: implicit declaration of function 'init_uart' [-Wimplicit-function-declaration]
-   89 |   init_uart();
+main.c:91:3: warning: implicit declaration of function 'init_uart' [-Wimplicit-function-declaration]
+   91 |   init_uart();
       |   ^~~~~~~~~
-main.c:91:3: warning: implicit declaration of function 'trigger_setup' [-Wimplicit-function-declaration]
-   91 |   trigger_setup();
+main.c:93:3: warning: implicit declaration of function 'trigger_setup' [-Wimplicit-function-declaration]
+   93 |   trigger_setup();
       |   ^~~~~~~~~~~~~
 network.c: In function 'create_neuron':
 network.c:33:24: warning: assignment to 'char *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]

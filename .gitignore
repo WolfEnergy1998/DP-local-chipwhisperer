@@ -38,3 +38,4 @@ jupyter-backup/*
 test.ipynb
 /tests/*.out
 ZENKU/credentials.json
+LEONARD/*

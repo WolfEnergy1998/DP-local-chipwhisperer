@@ -21,6 +21,8 @@ uint8_t one_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
   volatile uint8_t result = 0;
   int arr[4] = {7,5,4,2};
   unsigned char weight = 5;
+  uint8_t buff[2] = { weight };
+  buff[-1] = 0;
     
   trigger_high();                                          // Start measurement!!!
   for(int x = 0;x<100;x++){
@@ -34,10 +36,7 @@ uint8_t one_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
     
   result = scmd*scmd;
   // For now we can just return the result back to the user.
-  uint8_t buff[2] = { weight };
-  buff[-1] = 0;
   simpleserial_put('r', 2, buff);
-
   return 0;
 }
 
@@ -45,14 +44,19 @@ uint8_t one_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
 
 uint8_t hundred_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
 {
+  //All operations to do before capturing, because after high low, there exist possibily that after low capturing iss still in progress
   volatile uint8_t result = 0;
   int arr[4] = {7,5,4,2};
   unsigned char weight = 5;
-  int counter = 50;
+  unsigned char counter = 250;
   unsigned char resutl;
   unsigned char val = buf[0];
-  int return_string_len =  ((arr[1] + 1) * arr[0]) + 1;
   char string[counter+1]; 
+  string[counter - 1] = 0;
+  //For now we can just return the result back to the user.
+  for(int x = 0; x < counter; x++){
+        string[x] = x % (counter/2);
+  }
 
 
     
@@ -68,15 +72,13 @@ uint8_t hundred_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
       __asm__("nop");
       __asm__("nop");
   }
-  trigger_low();                                             // Stop measurement!!!
-    
-  //result = scmd*scmd;
-  // For now we can just return the result back to the user.
-  for(int x = 0; x < counter; x++){
-        string[x] = x % (counter/2);
+  for(int x = 0;x<100;x++){
+      __asm__("nop");
   }
-  string[return_string_len - 1] = 0;
-  simpleserial_put('r', counter+1, string);
+  trigger_low();                                        // Stop measurement!!!
+    
+  result = scmd*scmd;
+  simpleserial_put('r', 2, result);
   return 0;
 }
 
