@@ -13,9 +13,9 @@ typedef struct old_neuron_struct {
 
 typedef struct neuron_struct {
     int num_weights;
-    int8_t *weights;
-    int8_t bias;
-    int8_t a;
+    uint8_t *weights;
+    uint8_t bias;
+    uint8_t a;
 } neuron;
 
 typedef struct layer_struct {

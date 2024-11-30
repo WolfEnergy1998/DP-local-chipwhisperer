@@ -37,12 +37,13 @@
 
 ## 9th week  
   1. [X] verify correlation function, on simulated data traces <-- Mixed results, for simulated traces the existing correlations methods proved more effective, while for the ones measured from ANN on CW, my method had more visible results.
-     2. There is a need to apply k-fold cross validation, and p-value in my method, it had possitive results in existing methods
+     2. There is a need to apply k-fold cross validation, and p-value in my method, it had positive results in existing methods
   2. [X] try out several methods of correlation, such as scipy.correlation ...
   3. [ ] try methods such as k-fold cross correlation, or p-value, for deleting ghost peaks and false peaks
 
 ## 10th week 
   0. [X] Check/compare corr. results of ANN traces, on mine and np/scipy.pearsonr, try out p_value filtering. <--- For mine implementation of p_value, the result was visible, but in astronomicaly small p_values (TODO NEEDS TO ASK???)
-  1. [X] Check quantization, if it is rightly done. <--- Quantization was verified and there were done small modifications, main area of modication needs/will be done in analysis. Because the quantization only, limits the interval of  secret key's values and input values, but  not the intemediate values.
-  2. [ ] If point 2. has an effect, do extraction
-  3. [ ] If point 2. has no effect, try debug the code, in C interpreter and check bit values of variables
+  1. [X] Check quantization, if it is rightly done. <--- Quantization was verified and there were done small modifications, main area of modification needs/will be done in analysis. Because the quantization only, limits the interval of  secret key's values and input values, but  not the intemediate values.
+  2. [X] If point 2. has an effect, do extraction <--- IT IS MESS, logically it should work, but it is unbelievable volatile
+  3. [X] If point 2. has no effect, try debug the code, in C interpreter and check bit values of variables <-- Bit values checked, changed all int8_t to uint8_t and changed relu function mechanism, to [if z > 127 a = 0 else a = z]
+       --> Still the result are confusing, needs additional debugging at wendsday.

@@ -1,12 +1,12 @@
 main.c: In function 'handle':
-main.c:45:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
-   45 |   trigger_high();
+main.c:48:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
+   48 |   trigger_high();
       |   ^~~~~~~~~~~~
-main.c:50:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
-   50 |   trigger_low();
+main.c:53:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
+   53 |   trigger_low();
       |   ^~~~~~~~~~~
-main.c:56:37: warning: pointer targets in passing argument 3 of 'simpleserial_put' differ in signedness [-Wpointer-sign]
-   56 |   simpleserial_put('r', return_len, string);
+main.c:59:37: warning: pointer targets in passing argument 3 of 'simpleserial_put' differ in signedness [-Wpointer-sign]
+   59 |   simpleserial_put('r', return_len, string);
       |                                     ^~~~~~
       |                                     |
       |                                     char *
@@ -14,88 +14,95 @@ In file included from main.c:13:
 ../../../hardware/victims/firmware/simpleserial/simpleserial.h:63:54: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
    63 | void simpleserial_put(char c, uint8_t size, uint8_t* output);
       |                                             ~~~~~~~~~^~~~~~
-main.c:54:11: warning: unused variable 'buff' [-Wunused-variable]
-   54 |   uint8_t buff[1] = { result };
+main.c:57:11: warning: unused variable 'buff' [-Wunused-variable]
+   57 |   uint8_t buff[1] = { result };
       |           ^~~~
 main.c: In function 'main':
-main.c:63:3: warning: implicit declaration of function 'platform_init' [-Wimplicit-function-declaration]
-   63 |   platform_init();
+main.c:66:3: warning: implicit declaration of function 'platform_init' [-Wimplicit-function-declaration]
+   66 |   platform_init();
       |   ^~~~~~~~~~~~~
-main.c:65:3: warning: implicit declaration of function 'init_uart' [-Wimplicit-function-declaration]
-   65 |   init_uart();
+main.c:68:3: warning: implicit declaration of function 'init_uart' [-Wimplicit-function-declaration]
+   68 |   init_uart();
       |   ^~~~~~~~~
-main.c:67:3: warning: implicit declaration of function 'trigger_setup' [-Wimplicit-function-declaration]
-   67 |   trigger_setup();
+main.c:70:3: warning: implicit declaration of function 'trigger_setup' [-Wimplicit-function-declaration]
+   70 |   trigger_setup();
       |   ^~~~~~~~~~~~~
-network.c: In function 'create_neuron':
-network.c:33:24: warning: assignment to 'char *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
-   33 |     new_neuron.weights = (float*) malloc(num_out_weights * sizeof(float));
-      |                        ^
+network.c: In function 'free_network':
+network.c:94:13: warning: unused variable 'num_next_weights' [-Wunused-variable]
+   94 |         int num_next_weights = net.layers[i].neurons[0].num_weights;
+      |             ^~~~~~~~~~~~~~~~
 network.c: In function 'forward':
-network.c:120:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
-  120 |     uint8_t result, scmd = 16;
+network.c:108:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  108 |     uint8_t result, scmd = 16;
       |             ^~~~~~
 network.c: In function 'generate_random_indices':
-network.c:173:15: warning: unused variable 'k' [-Wunused-variable]
-  173 |     int i, j, k;
+network.c:158:15: warning: unused variable 'k' [-Wunused-variable]
+  158 |     int i, j, k;
       |               ^
 network.c: In function 'forward_shuffled_without_overhead':
-network.c:211:19: warning: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
-  211 |     for (volatile i=1; i<net.num_layers; i++){
+network.c:196:19: warning: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  196 |     for (volatile i=1; i<net.num_layers; i++){
       |                   ^
-network.c:215:23: warning: type defaults to 'int' in declaration of 'j' [-Wimplicit-int]
-  215 |         for (volatile j=0; j<net.layers[i].num_neurons; j++){
+network.c:200:23: warning: type defaults to 'int' in declaration of 'j' [-Wimplicit-int]
+  200 |         for (volatile j=0; j<net.layers[i].num_neurons; j++){
       |                       ^
-network.c:222:27: warning: type defaults to 'int' in declaration of 'k' [-Wimplicit-int]
-  222 |             for (volatile k=0; k<net.layers[i - 1].num_neurons; k++){
+network.c:207:27: warning: type defaults to 'int' in declaration of 'k' [-Wimplicit-int]
+  207 |             for (volatile k=0; k<net.layers[i - 1].num_neurons; k++){
       |                           ^
-network.c:209:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
-  209 |     uint8_t result, scmd = 16;
+network.c:194:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  194 |     uint8_t result, scmd = 16;
       |             ^~~~~~
-network.c:203:15: warning: unused variable 'k' [-Wunused-variable]
-  203 |     int i, j, k, nidx;
+network.c:188:15: warning: unused variable 'k' [-Wunused-variable]
+  188 |     int i, j, k, nidx;
       |               ^
-network.c:203:12: warning: unused variable 'j' [-Wunused-variable]
-  203 |     int i, j, k, nidx;
+network.c:188:12: warning: unused variable 'j' [-Wunused-variable]
+  188 |     int i, j, k, nidx;
       |            ^
-network.c:203:9: warning: unused variable 'i' [-Wunused-variable]
-  203 |     int i, j, k, nidx;
+network.c:188:9: warning: unused variable 'i' [-Wunused-variable]
+  188 |     int i, j, k, nidx;
       |         ^
 network.c: In function 'forward_shuffled_without_overhead_activations_at_end':
-network.c:268:19: warning: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
-  268 |     for (volatile i=1; i<net.num_layers; i++){
+network.c:252:19: warning: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  252 |     for (volatile i=1; i<net.num_layers; i++){
       |                   ^
-network.c:272:23: warning: type defaults to 'int' in declaration of 'j' [-Wimplicit-int]
-  272 |         for (volatile j=0; j<net.layers[i].num_neurons; j++){
+network.c:256:23: warning: type defaults to 'int' in declaration of 'j' [-Wimplicit-int]
+  256 |         for (volatile j=0; j<net.layers[i].num_neurons; j++){
       |                       ^
-network.c:279:27: warning: type defaults to 'int' in declaration of 'k' [-Wimplicit-int]
-  279 |             for (volatile k=0; k<net.layers[i - 1].num_neurons; k++){
+network.c:263:27: warning: type defaults to 'int' in declaration of 'k' [-Wimplicit-int]
+  263 |             for (volatile k=0; k<net.layers[i - 1].num_neurons; k++){
       |                           ^
-network.c:296:23: warning: type defaults to 'int' in declaration of 'j' [-Wimplicit-int]
-  296 |         for (volatile j=0; j<net.layers[i].num_neurons; j++) {
+network.c:278:23: warning: type defaults to 'int' in declaration of 'j' [-Wimplicit-int]
+  278 |         for (volatile j=0; j<net.layers[i].num_neurons; j++) {
       |                       ^
-network.c:266:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
-  266 |     uint8_t result, scmd = 16;
+network.c:250:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  250 |     uint8_t result, scmd = 16;
       |             ^~~~~~
-network.c:260:15: warning: unused variable 'k' [-Wunused-variable]
-  260 |     int i, j, k, nidx;
+network.c:244:15: warning: unused variable 'k' [-Wunused-variable]
+  244 |     int i, j, k, nidx;
       |               ^
-network.c:260:12: warning: unused variable 'j' [-Wunused-variable]
-  260 |     int i, j, k, nidx;
+network.c:244:12: warning: unused variable 'j' [-Wunused-variable]
+  244 |     int i, j, k, nidx;
       |            ^
-network.c:260:9: warning: unused variable 'i' [-Wunused-variable]
-  260 |     int i, j, k, nidx;
+network.c:244:9: warning: unused variable 'i' [-Wunused-variable]
+  244 |     int i, j, k, nidx;
       |         ^
 network.c: In function 'forward_shuffled':
-network.c:328:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
-  328 |     uint8_t result, scmd = 16;
+network.c:311:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  311 |     uint8_t result, scmd = 16;
       |             ^~~~~~
+network.c: In function 'free_network':
+network.c:103:5: warning: 'free' called on unallocated object 'net' [-Wfree-nonheap-object]
+  103 |     free(&(net.layers));
+      |     ^~~~~~~~~~~~~~~~~~~
+network.c:92:43: note: declared here
+   92 | void free_network(int num_layers, network net){
+      |                                   ~~~~~~~~^~~
 network.c: In function 'forward_shuffled_without_overhead_activations_at_end':
-network.c:311:80: warning: 'nidx' may be used uninitialized [-Wmaybe-uninitialized]
-  311 |                 net.layers[i].neurons[nidx].a = 1/(1+exp(-net.layers[i].neurons[nidx].z));
-      |                                                                                ^
-network.c:260:18: note: 'nidx' was declared here
-  260 |     int i, j, k, nidx;
+network.c:280:47: warning: 'nidx' may be used uninitialized [-Wmaybe-uninitialized]
+  280 |             uint32_t z = net.layers[i].neurons[nidx].a;
+      |                                               ^
+network.c:244:18: note: 'nidx' was declared here
+  244 |     int i, j, k, nidx;
       |                  ^~~~
 c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o): in function `_close_r':
 c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/closer.c:47:(.text+0xc): warning: _close is not implemented and will always fail

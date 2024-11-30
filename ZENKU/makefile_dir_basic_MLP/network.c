@@ -2,7 +2,7 @@
 #include <stdint.h>
 #include <math.h>
 
-const int8_t QUANTIZED_MIN = -128,  QUANTIZED_MAX = 127;  
+const int8_t QUANTIZED_MIN = 0,  QUANTIZED_MAX = 255, QUANTIZED_POS_MAX = 127;  
 
 void swap(int *a, int *b){
     int temp = *a;
@@ -36,11 +36,13 @@ neuron quantized_create_neuron(int num_out_weights){
     neuron new_neuron;
     new_neuron.bias = 0;
     new_neuron.a = 0;
-    new_neuron.weights = (int8_t*) malloc(num_out_weights * sizeof(int8_t));
+    new_neuron.weights = (uint8_t*) malloc(num_out_weights * sizeof(uint8_t));
     new_neuron.num_weights = num_out_weights;
 
     for (int i=0; i<num_out_weights; i++){
-        new_neuron.weights[i] = (int8_t)(rand() / (RAND_MAX / ( QUANTIZED_MAX - QUANTIZED_MIN + 2)));
+        //new_neuron.weights[i] = (uint8_t)(rand() / (RAND_MAX / ( QUANTIZED_MAX - QUANTIZED_MIN + 2)));
+        //new_neuron.weights[i] = (uint8_t)(rand() % 256);
+        new_neuron.weights[i] = 0;
     }
     return new_neuron;
 }
@@ -66,6 +68,7 @@ network create_network(int num_layers){
  * Initialize/allocate whole network
  */
 network construct_quantized_network2(int num_layers, int *num_neurons) {
+    srand(time(NULL)); 
     network net = create_network(num_layers);
     int i, j;
     for (i=0; i<num_layers; i++){
@@ -108,27 +111,28 @@ void forward(network net, int dummy_operations){
         
         // for each neuron in this layer
         for (j=0; j<net.layers[i].num_neurons; j++){   
-            int32_t z = net.layers[i].neurons[j].bias;
+            uint32_t z = net.layers[i].neurons[j].bias;
             // for all neurons on the previous layer
             for (k=0; k<net.layers[i - 1].num_neurons; k++){
-                z += (int32_t)(net.layers[i-1].neurons[k].weights[j]) * (int32_t)(net.layers[i-1].neurons[k].a); // We are looking for THIS MULTIPLICATION
+                uint32_t mult = (uint32_t)(net.layers[i-1].neurons[k].weights[j]) * (uint32_t)(net.layers[i-1].neurons[k].a);
+                z += mult; // We are looking for THIS MULTIPLICATION
             }
             //get a values
             // REQUINTIZE net.layers[i].neurons[j].a = net.layers[i].neurons[j].z;
             //apply relu
             if(i < net.num_layers-1){ // if we are at last layer use relu AF (this should be to classification MLP)
-                if((z) < 0){// if the intermediate value is under the treshold (0), set final value of actiovation to 0
+                if(((uint8_t)(z)) > QUANTIZED_POS_MAX){// if the intermediate value is under the treshold (0), set final value of actiovation to 0
                     net.layers[i].neurons[j].a = 0;
                 }
                 else{ //, otherwise let it as is
-                    net.layers[i].neurons[j].a = (int8_t)(z);
+                    net.layers[i].neurons[j].a = (uint8_t)(z);
                 }
             }
             //apply sigmoid to the last layer
             else{ // if we are at last layer, apply sigmoid AF to all it's neurons results
                 // Sigmoid for the output layer
                 float sigmoid = 1.0f / (1.0f + expf(-z));
-                net.layers[i].neurons[j].a = (int8_t)(sigmoid * 127); // Scale to fit in int8_t range
+                net.layers[i].neurons[j].a = (uint8_t)(sigmoid * 127); // Scale to fit in int8_t range
             }
         }
         //OPTIONAL DUMMY OPERATIONS
@@ -195,7 +199,7 @@ void forward_shuffled_without_overhead(network net, int**** random_indices, int 
         // for each neuron in this layer
         for (volatile j=0; j<net.layers[i].num_neurons; j++){
             nidx = rand_n_idx[j];  
-            int32_t z = net.layers[i].neurons[nidx].bias;
+            uint32_t z = net.layers[i].neurons[nidx].bias;
 
 
             rand_w_idx = rand_ws_indices[i - 1][j];
@@ -209,7 +213,7 @@ void forward_shuffled_without_overhead(network net, int**** random_indices, int 
             net.layers[i].neurons[nidx].a = z;
             //apply relu
             if(i < net.num_layers-1){
-                if((z) < 0)
+                if(((uint8_t)(z)) > QUANTIZED_POS_MAX)
                 {
                     net.layers[i].neurons[nidx].a = 0;
                 }
@@ -251,7 +255,7 @@ void forward_shuffled_without_overhead_activations_at_end(network net, int**** r
         // for each neuron in this layer
         for (volatile j=0; j<net.layers[i].num_neurons; j++){
             nidx = rand_n_idx[j];  
-            int32_t z = net.layers[i].neurons[nidx].bias;
+            uint32_t z = net.layers[i].neurons[nidx].bias;
 
 
             rand_w_idx = rand_ws_indices[i - 1][j];
@@ -273,9 +277,9 @@ void forward_shuffled_without_overhead_activations_at_end(network net, int**** r
 
         for (volatile j=0; j<net.layers[i].num_neurons; j++) {
             //apply relu
-            int32_t z = net.layers[i].neurons[nidx].a;
+            uint32_t z = net.layers[i].neurons[nidx].a;
             if(i < net.num_layers-1){
-                if(z < 0)
+                if(((uint8_t)(z)) > QUANTIZED_POS_MAX)
                 {
                     net.layers[i].neurons[nidx].a = 0;
                 }
@@ -312,7 +316,7 @@ void forward_shuffled(network net, int dummy_operations) {
         // for each neuron in this layer
         for (j=0; j<net.layers[i].num_neurons; j++){
             nidx = rand_n_idx[j];  
-            int32_t z = net.layers[i].neurons[nidx].bias;
+            uint32_t z = net.layers[i].neurons[nidx].bias;
 
 
             rand_w_idx = get_random_indices(net.layers[i - 1].num_neurons);
@@ -326,7 +330,7 @@ void forward_shuffled(network net, int dummy_operations) {
             net.layers[i].neurons[nidx].a = z;
             //apply relu
             if(i < net.num_layers-1){
-                if(z < 0)
+                if((uint8_t)(z) > QUANTIZED_POS_MAX)
                 {
                     net.layers[i].neurons[nidx].a = 0;
                 }
