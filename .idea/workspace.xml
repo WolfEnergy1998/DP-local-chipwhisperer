@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="update of Readme in Zenku Dir">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Dayli update, READ readme in ZENKU dir">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_2.11.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_2.11.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Setuper.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/1400_tmp_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/1400_tmp_corr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.eep" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.eep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/database/rand_inputs__256TimeMult_Dec1-ntg1-1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/database/rand_inputs__256TimeMult_Dec1-ntg1-1400.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/database/rand_inputs__256TimeMult_Dec2-ntg2-1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/database/rand_inputs__HundredTimeMult_Dec1-ntg1-1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/database/rand_inputs__HundredTimeMult_Dec1-ntg1-1400.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/database/rand_inputs__HundredTimeMult_Dec1-ntg1-800.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/database/rand_inputs__OneTimeMult_Dec1-ntg1-1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/database/rand_inputs__OneTimeMult_Dec1-ntg1-1400.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/database/rand_inputs__OneTimeMult_Dec1-ntg1-800.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/figures/1200_tmp_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/1200_tmp_corr.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.hex" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.lss" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.lss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.map" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.sym" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.sym" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/warnings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/warnings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/tmp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +50,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Samuel/PycharmProjects/tmp",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Samuel/PycharmProjects/VolcanoVINF&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Samuel\PycharmProjects\chipwhisperer-jupyter" />
@@ -68,7 +68,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -217,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730577476905</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Dayli update, READ readme in ZENKU dir">
+      <option name="closed" value="true" />
+      <created>1731182371369</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731182371369</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Dayli update, READ readme in ZENKU dir">
+      <option name="closed" value="true" />
+      <created>1731182420102</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1731182420102</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +260,7 @@
     <MESSAGE value="daily update, succesful CPA on one_mult, well besides 0, mixed results for mult_mult" />
     <MESSAGE value="daily update, succesful CPA on 50_mult, well 95% succesfull, the attack on 0-secret value didnt  work, while correlations for 0-val were on all TS 0, it took correlations of 1 as replacement" />
     <MESSAGE value="update of Readme in Zenku Dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="update of Readme in Zenku Dir" />
+    <MESSAGE value="Dayli update, READ readme in ZENKU dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dayli update, READ readme in ZENKU dir" />
   </component>
 </project>
