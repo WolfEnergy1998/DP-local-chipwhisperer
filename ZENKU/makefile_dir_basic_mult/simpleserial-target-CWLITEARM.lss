@@ -140,8 +140,8 @@ uint8_t one_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
  8000232:	f107 040c 	add.w	r4, r7, #12
  8000236:	cb0f      	ldmia	r3, {r0, r1, r2, r3}
  8000238:	e884 000f 	stmia.w	r4, {r0, r1, r2, r3}
-  unsigned char weight = 5;
- 800023c:	2305      	movs	r3, #5
+  unsigned char weight = 27;
+ 800023c:	231b      	movs	r3, #27
  800023e:	77fb      	strb	r3, [r7, #31]
   uint8_t buff[2] = { weight };
  8000240:	2300      	movs	r3, #0

@@ -20,7 +20,7 @@ uint8_t one_mult(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)
 {
   volatile uint8_t result = 0;
   int arr[4] = {7,5,4,2};
-  unsigned char weight = 5;
+  unsigned char weight = 27;
   uint8_t buff[2] = { weight };
   buff[-1] = 0;
     

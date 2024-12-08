@@ -1,4 +1,4 @@
-1 == ./makefile_dir_basic_MLP/
+1 == ./makefile_dir_basic_quantized_mult/
 2 == ./
 3 == CWLITEARM
 4 == ../../../hardware/victims/firmware

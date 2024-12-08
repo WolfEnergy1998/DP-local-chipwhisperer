@@ -47,3 +47,4 @@
   2. [X] If point 2. has an effect, do extraction <--- IT IS MESS, logically it should work, but it is unbelievable volatile
   3. [X] If point 2. has no effect, try debug the code, in C interpreter and check bit values of variables <-- Bit values checked, changed all int8_t to uint8_t and changed relu function mechanism, to [if z > 127 a = 0 else a = z]
        --> Still the result are confusing, needs additional debugging at wendsday.
+     - 3.12.2024: - Po vypnuti Optimalizacie u ANN, vysledne korelacne matice uz boli vyerohodnejsie, dalej my ostava odskusat, ci problem je v metode vypoctu korelacie, alebo v pretipovani na uintX_t
