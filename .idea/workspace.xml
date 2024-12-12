@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, modifiing quantization">
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, modifiing/resolving problem with quantization, identifiing the possible problem in usage of uint8_t.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP-NO_OPT_Dec1-ntg1-1000_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP-NO_OPT_Dec1-ntg1-1000_corr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP-NO_OPT_Dec1-ntg1-3000_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP-NO_OPT_Dec1-ntg1-3000_corr.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/figures/tmp_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/tmp_corr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.hex" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.lss" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.lss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/tmp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +57,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
       </set>
     </attachedChunks>
   </component>
@@ -242,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733001622140</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Daily update, modifiing/resolving problem with quantization, identifiing the possible problem in usage of uint8_t.">
+      <option name="closed" value="true" />
+      <created>1733670636431</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733670636447</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +276,7 @@
     <MESSAGE value="Dayli update, READ readme in ZENKU dir" />
     <MESSAGE value="Mid-day update, modifiing quantization" />
     <MESSAGE value="Daily update, modifiing quantization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Daily update, modifiing quantization" />
+    <MESSAGE value="Daily update, modifiing/resolving problem with quantization, identifiing the possible problem in usage of uint8_t." />
+    <option name="LAST_COMMIT_MESSAGE" value="Daily update, modifiing/resolving problem with quantization, identifiing the possible problem in usage of uint8_t." />
   </component>
 </project>
