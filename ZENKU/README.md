@@ -48,3 +48,29 @@
   3. [X] If point 2. has no effect, try debug the code, in C interpreter and check bit values of variables <-- Bit values checked, changed all int8_t to uint8_t and changed relu function mechanism, to [if z > 127 a = 0 else a = z]
        --> Still the result are confusing, needs additional debugging at wendsday.
      - 3.12.2024: - Po vypnuti Optimalizacie u ANN, vysledne korelacne matice uz boli vyerohodnejsie, dalej my ostava odskusat, ci problem je v metode vypoctu korelacie, alebo v pretipovani na uintX_t
+
+
+## 12th week
+1. Try old, pre quantization efforts ANN, and try on it current methods of CPA
+   - TODO: just build old one and run it throught basic treatment
+   - Old one has quite visible correlation peaks, while also more expansive network. The peaks are quite close to each other sample wise.
+   - For the newest, the correlations for right weight are mostly visible in HW(int), others not so much, this is mainly beacause the correlation of each right weight are peaks of its domain, but their distance is quite significant, in sense of correlation height.
+   - Another observed characteristic was that HW(int) is predisposited for non-parite weight, while the parite-ones are missing from the results.
+2. Try inbuild methods of Pearson Correlation, +p-value usage, and optionaly refresh efforts for weight extraction
+	- TODO: use it one the one from previous point, and also with newest one iteration of ANN
+3. Try to continue efforts of SPA, by using diff_wave, on different architectures
+	- TODO: just use it on the ones wiht better result from previous points, also try to set greater number of sampled points, or set decimate to 2>
+    - SPA was succesfull, wherein the Relu for each hidden_neuron was seen, and sig for each output_neuron was seen
+4. At last, try use of Float point function for HW calculation, maiby it could bring new inspiration for unsigned char
+	TODO: check the code which was sent to you be the project leader, about similar impelentation but for floating point, there I saw different HW calc function based on the standard for floating point, while this is nice, we cant forget that unsigned char, as all data types, are not only composed of the value, but contain also different informations, the best example would be uin8_t, where this influecnce could be  quite be  felt. 
+
+5. Try to figure out what causes that correlation cloud after about 10K sample, by comparing old iteration with current one, so much difference there shouldn't be.
+    -- Mainly visible for HW(int), where 255 is prevalent, for others it disapears mostly, if opt. is turned on then it dissapears also for HW(int). Otherwise it was also observed that its prevalence was smaller when z was added into Neuron var..
+    -- Possible cause: In memory values (permeating values),
+
+- Optional: If you have time, check what causes those warnings in the building process.
+ -TODO start writing Impementation in overleaf, 0. Choosen ANN, 1. Quantization (Each method CHAR, UINT8_T, UNSIGNED CHAR), 2. Correlation analysis (1.,2.,3.,4. method),3. Weight extraction method (1.,2.,3.,4)
+
+Questions:
+	1. Why does the trace, differs so much when the rand is on and off (i mean rand setting of weights)
+	2. Why does the time needed for calculation of correlation, increase exp. with number of traces, to 1K it is acceptable, about 45sek, but with 3K it goes into 9min., and 10K 1.15hod.
