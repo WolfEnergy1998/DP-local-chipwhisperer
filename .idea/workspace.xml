@@ -4,8 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, for saturday 12-week">
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, for saturday 13-week (late)">
       <change afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_21.12.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/figures/norm_corr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/Makefile.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/debug-source.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/network.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/network.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/network.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/network.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/warnings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/Makefile.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/debug-source.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/dewflio_shuffle_ANN/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/dewflio_shuffle_ANN/network.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/dewflio_shuffle_ANN/network.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/network.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/network.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.eep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.lss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.sym" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/warnings.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_12.12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_12.12.ipynb" afterDir="false" />
@@ -275,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734198091317</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Daily update, for saturday 13-week (late)">
+      <option name="closed" value="true" />
+      <created>1735230251286</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1735230251286</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +351,7 @@
     <MESSAGE value="Daily update, modifiing/resolving problem with quantization, identifiing the possible problem in usage of uint8_t." />
     <MESSAGE value="Daily update" />
     <MESSAGE value="Daily update, for saturday 12-week" />
-    <option name="LAST_COMMIT_MESSAGE" value="Daily update, for saturday 12-week" />
+    <MESSAGE value="Daily update, for saturday 13-week (late)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Daily update, for saturday 13-week (late)" />
   </component>
 </project>
