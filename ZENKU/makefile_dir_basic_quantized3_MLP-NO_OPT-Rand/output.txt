@@ -1,0 +1,73 @@
+using saved TARGET 'simpleserial-target'
+using saved SS_VER 'SS_VER_2_1'
+using saved PLATFORM 'CWLITEARM'
+using saved CRYPTO_TARGET './'
+using saved FIRMWAREPATH '../../../hardware/victims/firmware'
+using saved FIRMWAREPATH '../../../hardware/victims/firmware'
+SS_VER set to SS_VER_2_1
+rm -f -- simpleserial-target-CWLITEARM.hex
+rm -f -- simpleserial-target-CWLITEARM.eep
+rm -f -- simpleserial-target-CWLITEARM.cof
+rm -f -- simpleserial-target-CWLITEARM.elf
+rm -f -- simpleserial-target-CWLITEARM.map
+rm -f -- simpleserial-target-CWLITEARM.sym
+rm -f -- simpleserial-target-CWLITEARM.lss
+rm -f -- objdir/*.o
+rm -f -- objdir/*.lst
+rm -f -- .//main.s .//network.s simpleserial.s stm32f3_hal.s stm32f3_hal_lowlevel.s stm32f3_sysmem.s
+rm -f -- .//main.d .//network.d simpleserial.d stm32f3_hal.d stm32f3_hal_lowlevel.d stm32f3_sysmem.d
+rm -f -- .//main.i .//network.i simpleserial.i stm32f3_hal.i stm32f3_hal_lowlevel.i stm32f3_sysmem.i
+.
+Welcome to another exciting ChipWhisperer target build!!
+arm-none-eabi-gcc (GCC) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+.
+Compiling C: main.c
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -I. -mthumb -mfloat-abi=soft -fmessage-length=0 -ffunction-sections -gdwarf-2 -DSS_VER=SS_VER_2_1 -DSTM32F303xC -DSTM32F3 -DSTM32 -DDEBUG -DHAL_TYPE=HAL_stm32f3 -DPLATFORM=CWLITEARM -DF_CPU=7372800UL -DSS_VER_2_0=2 -DSS_VER_1_1=1 -DSS_VER_1_0=0 -O0 -funsigned-char -funsigned-bitfields -fshort-enums -Wall -Wstrict-prototypes -Wa,-adhlns=objdir/main.lst -I../../../hardware/victims/firmware/simpleserial/ -I../../../hardware/victims/firmware/hal -I../../../hardware/victims/firmware/hal/stm32f3 -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/core -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/device -I../../../hardware/victims/firmware/hal/stm32f4/Legacy -std=gnu99  -MMD -MP -MF .dep/main.o.d main.c -o objdir/.//main.o
+.
+Compiling C: network.c
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -I. -mthumb -mfloat-abi=soft -fmessage-length=0 -ffunction-sections -gdwarf-2 -DSS_VER=SS_VER_2_1 -DSTM32F303xC -DSTM32F3 -DSTM32 -DDEBUG -DHAL_TYPE=HAL_stm32f3 -DPLATFORM=CWLITEARM -DF_CPU=7372800UL -DSS_VER_2_0=2 -DSS_VER_1_1=1 -DSS_VER_1_0=0 -O0 -funsigned-char -funsigned-bitfields -fshort-enums -Wall -Wstrict-prototypes -Wa,-adhlns=objdir/network.lst -I../../../hardware/victims/firmware/simpleserial/ -I../../../hardware/victims/firmware/hal -I../../../hardware/victims/firmware/hal/stm32f3 -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/core -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/device -I../../../hardware/victims/firmware/hal/stm32f4/Legacy -std=gnu99  -MMD -MP -MF .dep/network.o.d network.c -o objdir/.//network.o
+.
+Compiling C: ../../../hardware/victims/firmware/simpleserial/simpleserial.c
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -I. -mthumb -mfloat-abi=soft -fmessage-length=0 -ffunction-sections -gdwarf-2 -DSS_VER=SS_VER_2_1 -DSTM32F303xC -DSTM32F3 -DSTM32 -DDEBUG -DHAL_TYPE=HAL_stm32f3 -DPLATFORM=CWLITEARM -DF_CPU=7372800UL -DSS_VER_2_0=2 -DSS_VER_1_1=1 -DSS_VER_1_0=0 -O0 -funsigned-char -funsigned-bitfields -fshort-enums -Wall -Wstrict-prototypes -Wa,-adhlns=objdir/simpleserial.lst -I../../../hardware/victims/firmware/simpleserial/ -I../../../hardware/victims/firmware/hal -I../../../hardware/victims/firmware/hal/stm32f3 -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/core -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/device -I../../../hardware/victims/firmware/hal/stm32f4/Legacy -std=gnu99  -MMD -MP -MF .dep/simpleserial.o.d ../../../hardware/victims/firmware/simpleserial/simpleserial.c -o objdir/simpleserial.o
+.
+Compiling C: ../../../hardware/victims/firmware/hal/stm32f3/stm32f3_hal.c
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -I. -mthumb -mfloat-abi=soft -fmessage-length=0 -ffunction-sections -gdwarf-2 -DSS_VER=SS_VER_2_1 -DSTM32F303xC -DSTM32F3 -DSTM32 -DDEBUG -DHAL_TYPE=HAL_stm32f3 -DPLATFORM=CWLITEARM -DF_CPU=7372800UL -DSS_VER_2_0=2 -DSS_VER_1_1=1 -DSS_VER_1_0=0 -O0 -funsigned-char -funsigned-bitfields -fshort-enums -Wall -Wstrict-prototypes -Wa,-adhlns=objdir/stm32f3_hal.lst -I../../../hardware/victims/firmware/simpleserial/ -I../../../hardware/victims/firmware/hal -I../../../hardware/victims/firmware/hal/stm32f3 -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/core -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/device -I../../../hardware/victims/firmware/hal/stm32f4/Legacy -std=gnu99  -MMD -MP -MF .dep/stm32f3_hal.o.d ../../../hardware/victims/firmware/hal/stm32f3/stm32f3_hal.c -o objdir/stm32f3_hal.o
+.
+Compiling C: ../../../hardware/victims/firmware/hal/stm32f3/stm32f3_hal_lowlevel.c
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -I. -mthumb -mfloat-abi=soft -fmessage-length=0 -ffunction-sections -gdwarf-2 -DSS_VER=SS_VER_2_1 -DSTM32F303xC -DSTM32F3 -DSTM32 -DDEBUG -DHAL_TYPE=HAL_stm32f3 -DPLATFORM=CWLITEARM -DF_CPU=7372800UL -DSS_VER_2_0=2 -DSS_VER_1_1=1 -DSS_VER_1_0=0 -O0 -funsigned-char -funsigned-bitfields -fshort-enums -Wall -Wstrict-prototypes -Wa,-adhlns=objdir/stm32f3_hal_lowlevel.lst -I../../../hardware/victims/firmware/simpleserial/ -I../../../hardware/victims/firmware/hal -I../../../hardware/victims/firmware/hal/stm32f3 -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/core -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/device -I../../../hardware/victims/firmware/hal/stm32f4/Legacy -std=gnu99  -MMD -MP -MF .dep/stm32f3_hal_lowlevel.o.d ../../../hardware/victims/firmware/hal/stm32f3/stm32f3_hal_lowlevel.c -o objdir/stm32f3_hal_lowlevel.o
+.
+Compiling C: ../../../hardware/victims/firmware/hal/stm32f3/stm32f3_sysmem.c
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -I. -mthumb -mfloat-abi=soft -fmessage-length=0 -ffunction-sections -gdwarf-2 -DSS_VER=SS_VER_2_1 -DSTM32F303xC -DSTM32F3 -DSTM32 -DDEBUG -DHAL_TYPE=HAL_stm32f3 -DPLATFORM=CWLITEARM -DF_CPU=7372800UL -DSS_VER_2_0=2 -DSS_VER_1_1=1 -DSS_VER_1_0=0 -O0 -funsigned-char -funsigned-bitfields -fshort-enums -Wall -Wstrict-prototypes -Wa,-adhlns=objdir/stm32f3_sysmem.lst -I../../../hardware/victims/firmware/simpleserial/ -I../../../hardware/victims/firmware/hal -I../../../hardware/victims/firmware/hal/stm32f3 -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/core -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/device -I../../../hardware/victims/firmware/hal/stm32f4/Legacy -std=gnu99  -MMD -MP -MF .dep/stm32f3_sysmem.o.d ../../../hardware/victims/firmware/hal/stm32f3/stm32f3_sysmem.c -o objdir/stm32f3_sysmem.o
+.
+Assembling: ../../../hardware/victims/firmware/hal/stm32f3/stm32f3_startup.S
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -I. -x assembler-with-cpp -mthumb -mfloat-abi=soft -fmessage-length=0 -ffunction-sections -DF_CPU=7372800 -Wa,-gstabs,-adhlns=objdir/stm32f3_startup.lst -I../../../hardware/victims/firmware/simpleserial/ -I../../../hardware/victims/firmware/hal -I../../../hardware/victims/firmware/hal/stm32f3 -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/core -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/device -I../../../hardware/victims/firmware/hal/stm32f4/Legacy ../../../hardware/victims/firmware/hal/stm32f3/stm32f3_startup.S -o objdir/stm32f3_startup.o
+.
+Linking: simpleserial-target-CWLITEARM.elf
+arm-none-eabi-gcc -mcpu=cortex-m4 -I. -mthumb -mfloat-abi=soft -fmessage-length=0 -ffunction-sections -gdwarf-2 -DSS_VER=SS_VER_2_1 -DSTM32F303xC -DSTM32F3 -DSTM32 -DDEBUG -DHAL_TYPE=HAL_stm32f3 -DPLATFORM=CWLITEARM -DF_CPU=7372800UL -DSS_VER_2_0=2 -DSS_VER_1_1=1 -DSS_VER_1_0=0 -O0 -funsigned-char -funsigned-bitfields -fshort-enums -Wall -Wstrict-prototypes -Wa,-adhlns=objdir/main.o -I../../../hardware/victims/firmware/simpleserial/ -I../../../hardware/victims/firmware/hal -I../../../hardware/victims/firmware/hal/stm32f3 -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/core -I../../../hardware/victims/firmware/hal/stm32f3/CMSIS/device -I../../../hardware/victims/firmware/hal/stm32f4/Legacy -std=gnu99  -MMD -MP -MF .dep/simpleserial-target-CWLITEARM.elf.d objdir/.//main.o objdir/.//network.o objdir/simpleserial.o objdir/stm32f3_hal.o objdir/stm32f3_hal_lowlevel.o objdir/stm32f3_sysmem.o objdir/stm32f3_startup.o --output simpleserial-target-CWLITEARM.elf --specs=nano.specs --specs=nosys.specs -T ../../../hardware/victims/firmware/hal/stm32f3/LinkerScript.ld -Wl,--gc-sections -lm -Wl,-Map=simpleserial-target-CWLITEARM.map,--cref   -lm  
+.
+Creating load file for Flash: simpleserial-target-CWLITEARM.hex
+arm-none-eabi-objcopy -O ihex -R .eeprom -R .fuse -R .lock -R .signature simpleserial-target-CWLITEARM.elf simpleserial-target-CWLITEARM.hex
+.
+Creating load file for EEPROM: simpleserial-target-CWLITEARM.eep
+arm-none-eabi-objcopy -j .eeprom --set-section-flags=.eeprom="alloc,load" \
+--change-section-lma .eeprom=0 --no-change-warnings -O ihex simpleserial-target-CWLITEARM.elf simpleserial-target-CWLITEARM.eep || exit 0
+.
+Creating Extended Listing: simpleserial-target-CWLITEARM.lss
+arm-none-eabi-objdump -h -S -z simpleserial-target-CWLITEARM.elf > simpleserial-target-CWLITEARM.lss
+.
+Creating Symbol Table: simpleserial-target-CWLITEARM.sym
+arm-none-eabi-nm -n simpleserial-target-CWLITEARM.elf > simpleserial-target-CWLITEARM.sym
+Size after:
+   text	   data	    bss	    dec	    hex	filename
+  22484	    116	   1732	  24332	   5f0c	simpleserial-target-CWLITEARM.elf
++--------------------------------------------------------
++ Default target does full rebuild each time.
++ Specify buildtarget == allquick == to avoid full rebuild
++--------------------------------------------------------
++--------------------------------------------------------
++ Built for platform CW-Lite Arm \(STM32F3\) with:
++--------------------------------------------------------

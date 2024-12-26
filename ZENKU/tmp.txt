@@ -1,4 +1,4 @@
-1 == ./makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/
+1 == ./makefile_dir_basic_quantized3_MLP-Rand/
 2 == ./
 3 == CWLITEARM
 4 == ../../../hardware/victims/firmware

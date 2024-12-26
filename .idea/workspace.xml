@@ -5,143 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, for saturday 12-week">
-      <change afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_14.12.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/_72222_BasicMLP_Dec2-ntg2-1000_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/_7222_BasicMLP_Dec2-ntg2-1000_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/_75642_BasicMLP_Dec2-ntg2-1000_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/_75642_BasicMLP_Dec3-ntg3-1000_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/_756464_BasicMLP_Dec2-ntg2-1000_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/_756464_BasicMLP_Dec3-ntg3-1000_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/avg_wave__72222_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/avg_wave__7222_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/avg_wave__722_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/avg_wave__75642_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/avg_wave__756464_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/difference_wave__72222_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/difference_wave__7222_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/difference_wave__722_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/difference_wave__75642_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/difference_wave__756464_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/variation__72222_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/variation__7222_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/variation__722_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/variation__75642_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/variation__756464_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/wave0__72222_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/wave0__7222_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/wave0__722_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/wave0__75642_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/figures/wave0__756464_BasicMLP_corr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222-Copy1/dewflio_shuffle_ANN/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222-Copy1/dewflio_shuffle_ANN/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222-Copy1/dewflio_shuffle_ANN/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/Makefile.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/debug-source.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/dewflio_shuffle_ANN/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/dewflio_shuffle_ANN/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/dewflio_shuffle_ANN/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.eep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.hex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.lss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.sym" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/warnings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/Makefile.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/debug-source.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/dewflio_shuffle_ANN/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/dewflio_shuffle_ANN/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/dewflio_shuffle_ANN/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.eep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.hex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.lss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.sym" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/warnings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/Makefile.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/debug-source.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/dewflio_shuffle_ANN/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/dewflio_shuffle_ANN/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/dewflio_shuffle_ANN/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.eep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.hex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.lss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.sym" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/warnings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/Makefile.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/debug-source.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/dewflio_shuffle_ANN/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/dewflio_shuffle_ANN/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/dewflio_shuffle_ANN/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.eep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.hex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.lss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.sym" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/warnings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/Makefile.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/debug-source.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/dewflio_shuffle_ANN/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/dewflio_shuffle_ANN/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/dewflio_shuffle_ANN/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/network.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.eep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.hex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.lss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.sym" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/warnings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_21.12.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_12.12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_12.12.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_14.12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_14.12.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_2.12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_2.12.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_7.12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_7.12.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP_Dec1-ntg1-1000_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP_Dec1-ntg1-1000_corr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP_Dec2-ntg2-1000_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP_Dec2-ntg2-1000_corr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP_Dec1-ntg1-5000_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/_722_BasicMLP_Dec1-ntg1-5000_corr.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/figures/avg_wave_1000_722_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/avg_wave_1000_722_corr.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/figures/difference_wave_1000_722_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/difference_wave_1000_722_corr.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/figures/tmp_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/tmp_corr.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/figures/variation_1000_722_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/variation_1000_722_corr.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/figures/wave0_1000_722_corr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/figures/wave0_1000_722_corr.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/network.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/network.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/network.h" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/network.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/warnings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/warnings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/tmp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +70,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -386,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734034280634</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Daily update, for saturday 12-week">
+      <option name="closed" value="true" />
+      <created>1734198091316</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1734198091317</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
