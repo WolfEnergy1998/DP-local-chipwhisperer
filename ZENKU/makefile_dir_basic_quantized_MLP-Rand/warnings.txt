@@ -1,0 +1,125 @@
+main.c: In function 'handle':
+main.c:48:3: warning: implicit declaration of function 'trigger_high' [-Wimplicit-function-declaration]
+   48 |   trigger_high();
+      |   ^~~~~~~~~~~~
+main.c:53:3: warning: implicit declaration of function 'trigger_low' [-Wimplicit-function-declaration]
+   53 |   trigger_low();
+      |   ^~~~~~~~~~~
+main.c:59:37: warning: pointer targets in passing argument 3 of 'simpleserial_put' differ in signedness [-Wpointer-sign]
+   59 |   simpleserial_put('r', return_len, string);
+      |                                     ^~~~~~
+      |                                     |
+      |                                     char *
+In file included from main.c:13:
+../../../hardware/victims/firmware/simpleserial/simpleserial.h:63:54: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   63 | void simpleserial_put(char c, uint8_t size, uint8_t* output);
+      |                                             ~~~~~~~~~^~~~~~
+main.c:57:11: warning: unused variable 'buff' [-Wunused-variable]
+   57 |   uint8_t buff[1] = { result };
+      |           ^~~~
+main.c: In function 'main':
+main.c:66:3: warning: implicit declaration of function 'platform_init' [-Wimplicit-function-declaration]
+   66 |   platform_init();
+      |   ^~~~~~~~~~~~~
+main.c:68:3: warning: implicit declaration of function 'init_uart' [-Wimplicit-function-declaration]
+   68 |   init_uart();
+      |   ^~~~~~~~~
+main.c:70:3: warning: implicit declaration of function 'trigger_setup' [-Wimplicit-function-declaration]
+   70 |   trigger_setup();
+      |   ^~~~~~~~~~~~~
+network.c: In function 'free_network':
+network.c:93:13: warning: unused variable 'num_next_weights' [-Wunused-variable]
+   93 |         int num_next_weights = net.layers[i].neurons[0].num_weights;
+      |             ^~~~~~~~~~~~~~~~
+network.c: In function 'forward':
+network.c:107:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  107 |     uint8_t result, scmd = 16;
+      |             ^~~~~~
+network.c: In function 'generate_random_indices':
+network.c:157:15: warning: unused variable 'k' [-Wunused-variable]
+  157 |     int i, j, k;
+      |               ^
+network.c: In function 'forward_shuffled_without_overhead':
+network.c:195:19: warning: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  195 |     for (volatile i=1; i<net.num_layers; i++){
+      |                   ^
+network.c:199:23: warning: type defaults to 'int' in declaration of 'j' [-Wimplicit-int]
+  199 |         for (volatile j=0; j<net.layers[i].num_neurons; j++){
+      |                       ^
+network.c:206:27: warning: type defaults to 'int' in declaration of 'k' [-Wimplicit-int]
+  206 |             for (volatile k=0; k<net.layers[i - 1].num_neurons; k++){
+      |                           ^
+network.c:193:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  193 |     uint8_t result, scmd = 16;
+      |             ^~~~~~
+network.c:187:15: warning: unused variable 'k' [-Wunused-variable]
+  187 |     int i, j, k, nidx;
+      |               ^
+network.c:187:12: warning: unused variable 'j' [-Wunused-variable]
+  187 |     int i, j, k, nidx;
+      |            ^
+network.c:187:9: warning: unused variable 'i' [-Wunused-variable]
+  187 |     int i, j, k, nidx;
+      |         ^
+network.c: In function 'forward_shuffled_without_overhead_activations_at_end':
+network.c:251:19: warning: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  251 |     for (volatile i=1; i<net.num_layers; i++){
+      |                   ^
+network.c:255:23: warning: type defaults to 'int' in declaration of 'j' [-Wimplicit-int]
+  255 |         for (volatile j=0; j<net.layers[i].num_neurons; j++){
+      |                       ^
+network.c:262:27: warning: type defaults to 'int' in declaration of 'k' [-Wimplicit-int]
+  262 |             for (volatile k=0; k<net.layers[i - 1].num_neurons; k++){
+      |                           ^
+network.c:277:23: warning: type defaults to 'int' in declaration of 'j' [-Wimplicit-int]
+  277 |         for (volatile j=0; j<net.layers[i].num_neurons; j++) {
+      |                       ^
+network.c:249:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  249 |     uint8_t result, scmd = 16;
+      |             ^~~~~~
+network.c:243:15: warning: unused variable 'k' [-Wunused-variable]
+  243 |     int i, j, k, nidx;
+      |               ^
+network.c:243:12: warning: unused variable 'j' [-Wunused-variable]
+  243 |     int i, j, k, nidx;
+      |            ^
+network.c:243:9: warning: unused variable 'i' [-Wunused-variable]
+  243 |     int i, j, k, nidx;
+      |         ^
+network.c: In function 'forward_shuffled':
+network.c:310:13: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  310 |     uint8_t result, scmd = 16;
+      |             ^~~~~~
+network.c: In function 'free_network':
+network.c:102:5: warning: 'free' called on unallocated object 'net' [-Wfree-nonheap-object]
+  102 |     free(&(net.layers));
+      |     ^~~~~~~~~~~~~~~~~~~
+network.c:91:43: note: declared here
+   91 | void free_network(int num_layers, network net){
+      |                                   ~~~~~~~~^~~
+network.c: In function 'forward_shuffled_without_overhead_activations_at_end':
+network.c:279:47: warning: 'nidx' may be used uninitialized [-Wmaybe-uninitialized]
+  279 |             uint32_t z = net.layers[i].neurons[nidx].a;
+      |                                               ^
+network.c:243:18: note: 'nidx' was declared here
+  243 |     int i, j, k, nidx;
+      |                  ^~~~
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-closer.o): in function `_close_r':
+c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/closer.c:47:(.text+0xc): warning: _close is not implemented and will always fail
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-fstatr.o): in function `_fstat_r':
+c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/fstatr.c:55:(.text+0x12): warning: _fstat is not implemented and will always fail
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-signalr.o): in function `_getpid_r':
+c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/signalr.c:83:(.text+0x2c): warning: _getpid is not implemented and will always fail
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-gettimeofdayr.o): in function `_gettimeofday_r':
+c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/gettimeofdayr.c:62:(.text+0x12): warning: _gettimeofday is not implemented and will always fail
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-isattyr.o): in function `_isatty_r':
+c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/isattyr.c:52:(.text+0xc): warning: _isatty is not implemented and will always fail
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-signalr.o): in function `_kill_r':
+c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/signalr.c:53:(.text+0x12): warning: _kill is not implemented and will always fail
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-lseekr.o): in function `_lseek_r':
+c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/lseekr.c:49:(.text+0x14): warning: _lseek is not implemented and will always fail
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-readr.o): in function `_read_r':
+c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/readr.c:49:(.text+0x14): warning: _read is not implemented and will always fail
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-writer.o): in function `_write_r':
+c:\m\b\src\newlib-4.4.0.20231231\newlib\libc\reent/writer.c:49:(.text+0x14): warning: _write is not implemented and will always fail
+c:/msys64/mingw64/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/ld.exe: warning: simpleserial-target-CWLITEARM.elf has a LOAD segment with RWX permissions
