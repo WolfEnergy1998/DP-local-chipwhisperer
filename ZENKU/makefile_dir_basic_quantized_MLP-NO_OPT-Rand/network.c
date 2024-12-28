@@ -121,7 +121,7 @@ void forward(network net, int dummy_operations){
             // REQUINTIZE net.layers[i].neurons[j].a = net.layers[i].neurons[j].z;
             //apply relu
             if(i < net.num_layers-1){ // if we are at last layer use relu AF (this should be to classification MLP)
-                if(((uint8_t)(z)) > QUANTIZED_POS_MAX){// if the intermediate value is under the treshold (0), set final value of actiovation to 0
+                if(((int32_t)(z)) < 0){// if the intermediate value is under the treshold (0), set final value of actiovation to 0 ((uint8_t)(z)) > QUANTIZED_POS_MAX
                     net.layers[i].neurons[j].a = 0;
                 }
                 else{ //, otherwise let it as is

@@ -4,17 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, for saturday 13-week (late)">
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, for saturday 14-week (late)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_14.12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_14.12.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_21.12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_21.12.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/File_Uploader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/File_Uploader.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_27_BasicSignedChar.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_27_BasicSignedChar.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_27_Uint8_T.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_27_Uint8_T.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_27_UnsignedChar.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_27_UnsignedChar.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/network.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/network.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/network.c" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/network.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/tmp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735230334728</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Daily update, for saturday 14-week (late)">
+      <option name="closed" value="true" />
+      <created>1735329579829</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1735329579829</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +338,7 @@
     <MESSAGE value="Daily update" />
     <MESSAGE value="Daily update, for saturday 12-week" />
     <MESSAGE value="Daily update, for saturday 13-week (late)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Daily update, for saturday 13-week (late)" />
+    <MESSAGE value="Daily update, for saturday 14-week (late)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Daily update, for saturday 14-week (late)" />
   </component>
 </project>

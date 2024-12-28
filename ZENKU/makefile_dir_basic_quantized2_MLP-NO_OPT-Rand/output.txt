@@ -63,7 +63,7 @@ Creating Symbol Table: simpleserial-target-CWLITEARM.sym
 arm-none-eabi-nm -n simpleserial-target-CWLITEARM.elf > simpleserial-target-CWLITEARM.sym
 Size after:
    text	   data	    bss	    dec	    hex	filename
-  22592	    116	   1732	  24440	   5f78	simpleserial-target-CWLITEARM.elf
+  22576	    116	   1732	  24424	   5f68	simpleserial-target-CWLITEARM.elf
 +--------------------------------------------------------
 + Default target does full rebuild each time.
 + Specify buildtarget == allquick == to avoid full rebuild
