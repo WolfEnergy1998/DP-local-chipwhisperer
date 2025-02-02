@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, for saturday 14-week-2 &#10;(late)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_General.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_General.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/File_Uploader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/File_Uploader.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.elf" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.elf" afterDir="false" />
-    </list>
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, for saturday winter-holyday 1sth week,&#10;Added filtering function, with spectrall and filtering options.&#10;Created new notebook for experiments with above, function." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735425697426</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Daily update, for saturday winter-holyday 1sth week,&#10;Added filtering function, with spectrall and filtering options.&#10;Created new notebook for experiments with above, function.">
+      <option name="closed" value="true" />
+      <created>1738425500240</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1738425500240</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +331,7 @@
     <MESSAGE value="Daily update, for saturday 13-week (late)" />
     <MESSAGE value="Daily update, for saturday 14-week (late)" />
     <MESSAGE value="Daily update, for saturday 14-week-2 &#10;(late)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Daily update, for saturday 14-week-2 &#10;(late)" />
+    <MESSAGE value="Daily update, for saturday winter-holyday 1sth week,&#10;Added filtering function, with spectrall and filtering options.&#10;Created new notebook for experiments with above, function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Daily update, for saturday winter-holyday 1sth week,&#10;Added filtering function, with spectrall and filtering options.&#10;Created new notebook for experiments with above, function." />
   </component>
 </project>
