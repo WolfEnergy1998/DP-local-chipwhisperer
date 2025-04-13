@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Daily update, experimenting with agregated filtering.">
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Adding aplication of reset_target, because high/low signal was not found, most likely reason is overflow of measurement, because of this the reset of them was optimal.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_General.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_General.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/tmp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +57,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -308,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738511693211</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Adding aplication of reset_target, because high/low signal was not found, most likely reason is overflow of measurement, because of this the reset of them was optimal.">
+      <option name="closed" value="true" />
+      <created>1739534465419</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1739534465419</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,6 +356,7 @@
     <MESSAGE value="Daily update, for saturday 14-week-2 &#10;(late)" />
     <MESSAGE value="Daily update, for saturday winter-holyday 1sth week,&#10;Added filtering function, with spectrall and filtering options.&#10;Created new notebook for experiments with above, function." />
     <MESSAGE value="Daily update, experimenting with agregated filtering." />
-    <option name="LAST_COMMIT_MESSAGE" value="Daily update, experimenting with agregated filtering." />
+    <MESSAGE value="Adding aplication of reset_target, because high/low signal was not found, most likely reason is overflow of measurement, because of this the reset of them was optimal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding aplication of reset_target, because high/low signal was not found, most likely reason is overflow of measurement, because of this the reset of them was optimal." />
   </component>
 </project>

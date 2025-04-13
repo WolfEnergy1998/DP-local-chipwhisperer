@@ -1,4 +1,4 @@
-# ZENKU TODO list for week:
+# ZENKU DP2 TODO list for week:
 
 ## Week 6. TODO:
    - **List of TODO for weekend and tuesday**:
@@ -80,3 +80,163 @@
    2. [X] Continue with SPA, this time on level of multiplications
    3. [ ] Consider which parts are to be included in Documents (parts as graphs)
    4. [ ] (Optional/Wendsday) Try k-cross validation
+
+
+
+
+# ZENKU DP3 TODO list for week:
+
+## Week 0 TODO:
+   1. [X] Connect all filter parts, and try them
+        - Done, found several possible optimalisation, from which the best would be to increase usage of global variables, at least for vars, which are sended into depth several times, such as scope ...
+   2. [X] Implement, countermeasures, and differentiate them from norm setup, using different command signals
+       - Done, needed to implement reset_target (reseting high low signals), becasue of proble of loosing high signal as starting sequence, possible cause, is overflow of measurement data, because of this the reset was impelemnted
+   3. [X] Add additional global variable, for all inputs to be same
+   4. [X] Try attack on one weight in this case, and what it results int
+   
+###### Question:
+- What is next closest correlation value of found key? 
+  - Is there any connection?
+  - If there is, can it be compesated for,  or  even delete? 
+
+## Week 1 TODO:
+   1. Check errors in documents (cause: before presentation the error was found):
+        - Checked, with regex, no missed citations found.
+   2. [X] Try out full input, for NO_OPT setup (cause: in OPT setup traces, the CPA didnt fare good, the result aftel filtering werent quite clear).
+        - It matches, the problem was in optimization.
+   3. [X] Create guiding spectogram from average wave (cause: suspision that the filtering LP and HP, derived from more objective source, such as average of all waves, will offer more general filtering ranges).
+       - No observable difference, maiby try on Optimized setup traces.
+   4. [ ] Implementation of K-Cross Validation: on 1000 k=4, 2000 k=4, 3200 k=4, 4000 k=4. (cause: effort to make filtering more general and precise)
+ 
+
+
+## Week 2 TODO:
+   1. [X] Analyza shuffle, with known weights:
+        - Pre hodnoty prvych vah, vsetky boli najdene, avsak v inom poradi ako by v skutocnosti mali byt, taktiez ich corellacne oblasti boli dost vyznacne
+           - Pravdepodobny dovod: 
+             -  a) v ramci prvej vrstvy je iba 5 neuronov, neposkytuje to dostatocne moznosti pre 1000 traces, solution: skus to na architekture s napr. 20 neuronmi <--- Moc to nepomohlo, max znizilo to correlacie, (este budem potrebovat 1x pokus s decimate = 3 a upravou filteringu)
+             -  b) random number generation, sa opakuje: solution: skontroluj to v outpute pristroja 
+   2. [] Pokus dummy not-opt
+        - 1. Norm forward ma tie dummy opperacie mimo multiplikacie a az za layer operations
+        - 2. Stale to pada na triggeroch pri dummy operaciach -->  **Timeout in OpenADC capture(), no trigger seen! Trigger forced, data is invalid. Status: 0b**
+        - V konecnom dosledku som zmenil nazov funkcie (pre mozny prekriv) a zmenil poradie jej nastavenia na 1. a problem bol vyrieseny... Nechapem
+   3. [X] Shuffling, analyza jeho prelomenia https://arxiv.org/pdf/2501.00798
+       - Basically, vacsi pocet tracov, na kompenzaciu rand.,
+   4. [ ] K-cross validation
+       - ...
+## Week 3 TODO:
+
+   1. [X] Analyza shuffle, pre 7-15-5-4-2, decimate=3
+       - Vacsinu sa podarilo extrahovat ale nie vsetky <-- este je to potrebne odskusat bez filtracie 
+   2. [X] Analyza dummy, s pridanymi operaciami pred a po mult. 
+       -  CPA was succesfull, either way ... <-- try with minimum traces 
+      
+   3. [X] Find the minimum number of traces for succesfull CPA ...
+       - 100 OK, 50 OK, 25 OK 3/2 
+   4. [X] Check masking countermeasures and pick one
+       - ... For example same as in Present 80, wherein the key are weights
+      
+   5. [X] Find the work using spectogram and add its info to DP document
+       - ... https://www.researchgate.net/profile/Huizhong-Li-7/publication/331625142_Convolutional_Neural_Network_Based_Side-Channel_Attacks_in_Time-Frequency_Representations/links/5fbe2643299bf104cf7557e1/Convolutional-Neural-Network-Based-Side-Channel-Attacks-in-Time-Frequency-Representations.pdf?origin=publication_detail&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uRG93bmxvYWQiLCJwcmV2aW91c1BhZ2UiOiJwdWJsaWNhdGlvbiJ9fQ 
+       - Work about chipwhisperer chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://theses.liacs.nl/pdf/2023-2024-AlkemaJDCJorisDuurtCornelis.pdf
+   6. [X] Check minimum without filtering, and with, and also with or without countermeasures ...
+       - ... 
+       - For dummy at 25 traces, the noise was quite substantial and ghost peaks also, but with knowing weight, we found them dominating, over their interval domains.
+       - For shuffle at 25 traces, only effect was reordering of their placement in traces. <--- Needs in depth analysis whether the rand indices in each call are same.
+       - For (100, 50, 25, 15) without filtering by spectogram, the correlations matrix, was quite more noisy similarly to dummy, but still true weight dominated in their interval domains.
+   7. [ ] K-cross validacia ...
+      - ..
+   8. [ ] Make plan for next week
+       - ... 1.)  In depth analysis of rand indices, in each call.
+      - [X] 2.)  Improvement in dummy operations by using input values in its multiplication
+          - Can be dummy also implemented  inside of multiplication? By adding rand dummy mult value into multiplications, and as second step, divide the resulting number by the the used dummy value (PS: usable only in no-opt, for opt it should delete this meaningless operaition).
+      - [X] 3.) Try to think about possible improvment in Shuffle.
+          - Get 3 random indices to weights, then sum them, and resulting number use making life harder for attacker, either by masking multiplication, or by doing multiplication using resulting number -- Dummy operations.
+          - **Or using those 3 random number, do time offset of operation, for RANDOM (each multiplication need different ofset, othervise elastic fitting can solve this problem) desynchronization of samples, and result in scrabling of correlation.**
+      - ... 4.) Try to think and implement mask.
+- Questions:   
+    1. Why, only first 2 declared functions in Simpleserial work, and others return No trigger seen?
+    2. Shuffle doesnt have much of an impact, as previously thought, maximaly, only in aspect of needing exhastive pairing of CPA's weights for knowing AF results?
+
+## Week 4 TODO:
+
+   1. [X] In depth analysis of rand indices, in each call
+      - [X] The problem was identified, and solved. The root of problem was repeated call of seeding function, and solution was moving of its implementation to main.
+      - [X] With working alg. try to find number of traces needed to somehow mitigate the shufling. Number to try [500,1000,1500,2000, 5000 and 10000 <--- Needs to make some changes to functions, so that correlation doesnt take too much time]
+blem was in repeated seeding operation, it was moved to main, where it is called only once <--- done up to 5000, minimal CPA results noted
+   2. [X] Enhanced dummy operations
+      - [X] Add input into multiplication
+      - [X] randomize mult. value participating with input, but ensure that it remains same across, all trace measurements, "dummy weights"
+         - Done, not much effect observerd. 
+      - [X] TODO, Use dummy operation for desynchronization
+        - Done, the effect was quite good, for price of time overhead. It in effect is quite simmilar to shufling. <-- Priority target 
+
+
+## Week 5 TODO:
+
+   1. [X] Stress testing: With working alg. try to find number of traces needed to somehow mitigate the shufling and dummy. Number to try [6000 and 10000 <--- Needs to make some changes to functions, so that correlation doesnt take too much time]
+blem was in repeated seeding operation, it was moved to main, where it is called only once
+      - Result, was still inconclusive, the shuffle was not broken even for 10 000 traces in architecture 7542.
+   2. [X] Find/pick suitable masking countermeasure:
+      1. Break Input or Weight into parts, for now two, and do 2 operations. eg. I=25, W=10: 11*10=110, 14*10=140  110+140=25*10.   And the brokage can be based on Cifrach (... zabudol som ich preklad v eng.), Random number offset, we can choose it on start of each handling.
+         - Optimalization: We set the offset at the start of handling, then during multiplication, we subtract offset from input, if the number is >= offset, and increase counter, before multiplication we use counter as weight and offset as input and add its value to intermediate value. 
+         - <-- Inconclusive, the mask from above, is not sufficient as the true value must be deposited as next input, but in this case the information is made visible. Other option is to move leftover from operation to next layer, but that would mean quite overhead.
+         - Results:  - The breakage (data spliting) resulted in failure as there is a need for having true input known for next layer.
+             - After some optimalizations, the end result was more simple masking countermeasure, but succesfull one. 
+                - The end result is in essence basic substitution cypher, which is constrained by number domain employed, so for lower exhaustive search is relative reachable, but for greater number, not so much without supercomputers. Of cource there is difficulty of needing (count_of_number_in_nDomain * min_succesfulCPA_traces) * (finding corresponding combinations)
+         - Proposiotion: In essence, the dummy and shuffle have greater potential as compared to current version of optimized Substiution Masking countermeasure. The positive of this countermeasure is that the main and greates overhead is only in first layer, in others there are still some additional operaions, but not as much as in first. Nevertheless this is not quite advantage over dummy, as there is needed only few offset operaions for desynchonizing whole correlation calculation.
+         - Enhancements: Possibly introduce into operaion other variable.  
+  3. [X] Implement choosen masking countermeasure: results up there. 
+
+
+
+
+## Week 6 TODO:
+
+  1. [X] Testing on 20K - 25K traces, overhead findings
+     - In case of Current masking countermeasure, the results were that it was almost breached 
+  2. [X] Implement measurement, by sumation of power, and time
+     - time in clks, for all options same 48 CLKs
+  3. [X] Optimizing current setup and adding libraries 
+
+## Week 7 TODO:
+
+  1. [X] Finishing CPA for first layer's weights
+     - Overall all 7 weight were succesfully extracted, for first layer. And as with filtering, the peaks are quite sparse the pick_up is ok. But 2 exceptions were noted, one in case of 7th weigt, where before one of peaks was unknown peak, and when the weight were same after each other, then second one's peak was missing.
+  2. [ ] Implement AF result CPA
+     - The problem is currently with first layers resulting **a** as they don't match what should be calculated, needs to check in debuging.
+     - Continuation from subpoint above. The problem was in correlation function, and that out_data was shown only for first rand_val. After repair the problem was solved, and resulting corelations found placement of AF. With one noted problem, and that is that RELU in current ANN doesnt work.
+     - [X] Needs to do path for relu in ANN firmware (if z > 127    alebo to castnem do signed char)
+       - The result of patch was that conventional CPA didnt work outside of first neuron, well at least the power traces were magnidute smaller, and still connected to previosu neuron (which is bullshit). 
+       - Also the mentioned "problem" was debuged in visual studio code, and there it worked fine.
+       - Where is the proble?
+     - [X] Needs to implement correlation for following layer, so correlation from 2 sub-point above can be compared, at choosen placement.
+       - The experimental function was defined, but whether beacuse there is lack of nonlineariti, the correlations are still shown in previous neurons (tried for third neuron and first weight).
+       - A the alg. for finding border, or correlation's comparisons should be done between what? Correlations of weights, of correlations of AF? If weight there is needed to be extracted corresponding weight with high correlation and then derive AF result.
+     - !!! Second nice find, is that best experimenting order, is from attack on last weight to first, as last shows only one operation and AF, and first first operation and all operations after it.
+  - 
+
+
+## Week 8 TODO:
+
+  1. [X] Solve problem of relu from previous week.
+    - by replacing if else conditioning, and making it somehow like entropy loss function. Also found problem with quantization.
+  2. [ ] Repair time overhead measurement
+  3. [ ] Compsensate for problem with HW32, when quantization was rightly aplied. 
+     - Tried different input distributions <-- The results were somehow positive, but necessary fitting will be needed, and only after previously mentioned problem was solved. 
+     - Tried HW on different bits of real results, the result were best for 8b, same as its is mostly aplied for busses in device, but the results are fragmentary, and there is need for merging of results, so the final values are true ones.
+     - The project leader proposed to change to different leakage model, such as absolute/identity, or stochastic (bit parts) but those were tryod out above <-- needs more thought
+     - The problem of HW32 stems from that, the real values have quite range, as compared to possible hamming weight values, that closes gap between correlations to simmilar values.
+       - I had tried to decrease possible range of real values by influencing the input into 4-bit range, but the results still arent sufficient.
+
+
+
+- TODO:
+  - Meaurements: property trig_count: int
+  - 0. K-cross validation
+  - 1. Try combination of countermeasures
+  - 2. Optimalization of countermeasures
+  - 4. Article image 6,7. . Calc. needed number of traces https://past.date-conference.com/proceedings-archive/2022/pdf/0242.pdf, vzorec (3), page 3
+  - PS: Change to all positive correlation in corr_comp, beacuse for now it is now doing it [X] it uses abs()
+  - TODO: refactor seeting of coorrelation trace_len view, in analyser, in general it is blind parameter
+  - 5. Try similar aproach as with spectogram, but here use autocorrelation as means of finding patterns
