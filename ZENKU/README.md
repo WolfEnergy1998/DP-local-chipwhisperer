@@ -221,7 +221,7 @@ blem was in repeated seeding operation, it was moved to main, where it is called
 
   1. [X] Solve problem of relu from previous week.
     - by replacing if else conditioning, and making it somehow like entropy loss function. Also found problem with quantization.
-  2. [ ] Repair time overhead measurement
+  2. [X] Repair time overhead measurement
   3. [ ] Compsensate for problem with HW32, when quantization was rightly aplied. 
      - Tried different input distributions <-- The results were somehow positive, but necessary fitting will be needed, and only after previously mentioned problem was solved. 
      - Tried HW on different bits of real results, the result were best for 8b, same as its is mostly aplied for busses in device, but the results are fragmentary, and there is need for merging of results, so the final values are true ones.
@@ -230,12 +230,45 @@ blem was in repeated seeding operation, it was moved to main, where it is called
        - I had tried to decrease possible range of real values by influencing the input into 4-bit range, but the results still arent sufficient.
 
 
+## Week 9-10 TODO:
+
+  1. [X] Continue with fitting, or trying new leakage models, with express purpose of succesfull CPA on int16 intermediate vals.
+     - [X] Done 5x Experiment with different researches
+
+
+## Week 11 TODO:
+  1. [X] Try out last planned experiment, and send results to DP leader
+     - [X] CPA was succesfull, but domination for all 0th weights across first layer werent quite great. 
+     - [ ] TODO ADD CONCRETE CASES
+       - dec 1 5000 Top HW-165-BiteSeparate Parts 4, Jump False
+       - vanilla 16-bitparts, jump-false, BiteSeparated, Big Endian, 2000, Decimate1, VariationFalse
+       - NAME-HW_16bit_intermediateVal_BitePartsSeparated_SignedSpecial_BP1_JFalse_DEC1_T2000_VFalse_E-big_TPint16_VBCS-VanillaBiteCorrSum_W0_CPA_DominantToTrueComparison
+       - NAME-HW_16bit_intermediateVal_BitePartsSeparated_C_Endian_BP16_JFalse_DEC1_T2000_VFalse_E-little_TPint16_VBCS-VanillaBiteCorrSum_W0_CPA_TrueToDominantComparison
+  2. [X] Finish Border CPA
+     1. [ ] Try out combination of countermeasures on if possible int16, if not then on int8  -- MUST
+     2. [X] Checkout CPA on FA result after repair in int8 (if possible int16)   (found additional error, the uset weights werent trasposed)              -- MUST
+        - Correct weight groups, result in one dominant peak in interval of one layer, and several dominat peaks in next layer (possible use for identifiing next layer). 
+        - Bit shifted weights Still Result in no high peaks in resulting correlation vector
+     3. [X] Find Border:
+        - TODO: Get all results for all previous neruons, but used needs to be list from only one (for finding it's corresponding weights in next layer).
+        - Basically identify multiplication domain of choosen neuron
+        - And above mentioned neuron do 2 sets of correlations calculations:
+          - 1. When rand_inputs are the initial rand_inputs
+          - 2. When rand_inputs are resulting values of each run, from one neuron
+          - 3. Compare correlation results -- If they are significant, then continue with attack on neuron's weights.
+          - 4. PS: the lenght of multiplication area is also significant giveaway. If it is same lenght as previous ones, then it has high propability to belong to previous one layer, only if the it is n+1 in layer, so the number of certain previous layers, neurons are same as input layer, then the propabilty comes into question. 
+          - 5.  **RESULTS**: the Border finding was succesfull. Found 2 ways to do it: **First** when doing CPA of each neuron, it has one dominant correlation in current layer - known multiplication field of trace, and several corresponding to it's output used as input in next layer (Here we can determine the next layer). **Second aproach**, similarly to previous one, we determine output of one neruon, and do whole weight_h interval correlation calculation, similarly it's peaks beside one in current layer should all be in next one. [X]
+  3. [ ] Tryout autocorrelation                                                            -- Postponed
+  4. [ ] Get overhead for each countermeasure.                                             -- MUST 
+  5. [X] Make skeleton of this semester's addition to DP document. 
+
+
 
 - TODO:
   - Meaurements: property trig_count: int
   - 0. K-cross validation
   - 1. Try combination of countermeasures
-  - 2. Optimalization of countermeasures
+  - 2. Optimalization of countermeasures <-- for now optimization is moot, max optimization for desynchronization, as for shufling and also desynchr. it more or less depends on used random generator. For the masking, the current efforts needed to develop/find/optimize current masking countermeasure outweight needs of currently more needed research directions.
   - 4. Article image 6,7. . Calc. needed number of traces https://past.date-conference.com/proceedings-archive/2022/pdf/0242.pdf, vzorec (3), page 3
   - PS: Change to all positive correlation in corr_comp, beacuse for now it is now doing it [X] it uses abs()
   - TODO: refactor seeting of coorrelation trace_len view, in analyser, in general it is blind parameter

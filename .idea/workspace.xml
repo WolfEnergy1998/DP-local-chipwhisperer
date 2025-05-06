@@ -4,13 +4,428 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Adding aplication of reset_target, because high/low signal was not found, most likely reason is overflow of measurement, because of this the reset of them was optimal.">
+    <list default="true" id="a0425e39-c1c0-42a3-b536-2ab2aba2d80c" name="Changes" comment="Update of 8-week">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/ANN_Observer.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Analyser.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_12.12.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_14.12.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_16.11.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_2.11.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_2.12.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_21.12.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_27_BasicSignedChar.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_27_Uint8_T.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_27_UnsignedChar.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_30.11.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_7.12.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_9.11.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/Capture_traces_General.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/Capture_traces_General.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/CustomCPA_SCA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/File_Uploader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/File_Uploader.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZENKU/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZENKU/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZENKU/tmp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/hal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleseria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt-NO_OPT/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-akt/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2-revert-weights_calc/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_2/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_MLP/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_mult/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand-75582/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT-Rand/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-NO_OPT/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222-Copy1/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222-Copy1/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222-Copy1/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-72222/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-756464/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR-75647/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2-VAR/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP-Rand-2/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized2_MLP/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-NO_OPT-Rand/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized3_MLP-Rand/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT-Rand/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-NO_OPT/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP-Rand/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_MLP/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/makefile_dir_basic_quantized_mult/warnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/Makefile.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/debug-source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/dewflio_shuffle_ANN/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/dewflio_shuffle_ANN/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/dewflio_shuffle_ANN/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/network.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.eep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.lss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/simpleserial-target-CWLITEARM.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZENKU/old_makefile_dir_basic_MLP/warnings.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +472,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
       </set>
     </attachedChunks>
   </component>
@@ -318,7 +733,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739534465419</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Update of 8-week">
+      <option name="closed" value="true" />
+      <created>1744581038128</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1744581038129</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,6 +780,7 @@
     <MESSAGE value="Daily update, for saturday winter-holyday 1sth week,&#10;Added filtering function, with spectrall and filtering options.&#10;Created new notebook for experiments with above, function." />
     <MESSAGE value="Daily update, experimenting with agregated filtering." />
     <MESSAGE value="Adding aplication of reset_target, because high/low signal was not found, most likely reason is overflow of measurement, because of this the reset of them was optimal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding aplication of reset_target, because high/low signal was not found, most likely reason is overflow of measurement, because of this the reset of them was optimal." />
+    <MESSAGE value="Update of 8-week" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update of 8-week" />
   </component>
 </project>
